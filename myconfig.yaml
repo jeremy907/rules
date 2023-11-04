@@ -6,9 +6,19 @@ mode: rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+- name: "\U0001F1F8\U0001F1EC 最新域名:58zfdao.com"
+  type: vmess
+  server: www.58zfdao.com
+  port: 10086
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港01解锁|倍率1"
   type: vmess
-  server: zfd-hkv1.kunlun-one.com
+  server: zfd-hkv1.01zmdbq1pk.cn
   port: 16111
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -18,7 +28,7 @@ proxies:
   tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港02解锁|倍率1"
   type: vmess
-  server: zfd-hkv1.kunlun-one.com
+  server: zfd-hkv1.01zmdbq1pk.cn
   port: 16112
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -28,7 +38,7 @@ proxies:
   tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港03解锁|倍率1"
   type: vmess
-  server: zfd-hkv1.kunlun-one.com
+  server: zfd-hkv1.01zmdbq1pk.cn
   port: 16113
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -38,7 +48,7 @@ proxies:
   tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港04解锁|倍率1"
   type: vmess
-  server: zfd-hkv1.kunlun-one.com
+  server: zfd-hkv1.01zmdbq1pk.cn
   port: 16114
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -48,7 +58,7 @@ proxies:
   tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港05解锁|倍率1"
   type: vmess
-  server: zfd-hkv1.kunlun-one.com
+  server: zfd-hkv1.01zmdbq1pk.cn
   port: 16115
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -58,7 +68,7 @@ proxies:
   tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港06解锁|倍率1"
   type: vmess
-  server: zfd-hkv1.kunlun-one.com
+  server: zfd-hkv1.01zmdbq1pk.cn
   port: 16116
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -68,7 +78,7 @@ proxies:
   tls: false
 - name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本01解锁|倍率1"
   type: vmess
-  server: zfd-jpv1.kunlun-one.com
+  server: zfd-jpv1.01zmdbq1pk.cn
   port: 16119
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -78,7 +88,7 @@ proxies:
   tls: false
 - name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本02解锁|倍率1"
   type: vmess
-  server: zfd-jpv1.kunlun-one.com
+  server: zfd-jpv1.01zmdbq1pk.cn
   port: 16120
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -88,7 +98,7 @@ proxies:
   tls: false
 - name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本03解锁|倍率1"
   type: vmess
-  server: zfd-jpv1.kunlun-one.com
+  server: zfd-jpv1.01zmdbq1pk.cn
   port: 16121
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -98,7 +108,7 @@ proxies:
   tls: false
 - name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本04解锁|倍率1"
   type: vmess
-  server: zfd-jpv1.kunlun-one.com
+  server: zfd-jpv1.01zmdbq1pk.cn
   port: 16122
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -108,7 +118,7 @@ proxies:
   tls: false
 - name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国01解锁|倍率1"
   type: vmess
-  server: zfd-usv1.kunlun-one.com
+  server: zfd-usv1.01zmdbq1pk.cn
   port: 16103
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -118,7 +128,7 @@ proxies:
   tls: false
 - name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国02解锁|倍率1"
   type: vmess
-  server: zfd-usv1.kunlun-one.com
+  server: zfd-usv1.01zmdbq1pk.cn
   port: 16104
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -128,7 +138,7 @@ proxies:
   tls: false
 - name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国03解锁|倍率1"
   type: vmess
-  server: zfd-usv1.kunlun-one.com
+  server: zfd-usv1.01zmdbq1pk.cn
   port: 16105
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -138,7 +148,7 @@ proxies:
   tls: false
 - name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国04解锁|倍率1"
   type: vmess
-  server: zfd-usv1.kunlun-one.com
+  server: zfd-usv1.01zmdbq1pk.cn
   port: 16106
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -148,7 +158,7 @@ proxies:
   tls: false
 - name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国01解锁|倍率1"
   type: vmess
-  server: zfd-krv1.kunlun-one.com
+  server: zfd-krv1.01zmdbq1pk.cn
   port: 16252
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -158,7 +168,7 @@ proxies:
   tls: false
 - name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国02解锁|倍率1"
   type: vmess
-  server: zfd-krv1.kunlun-one.com
+  server: zfd-krv1.01zmdbq1pk.cn
   port: 16253
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -168,7 +178,7 @@ proxies:
   tls: false
 - name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国03解锁|倍率1"
   type: vmess
-  server: zfd-krv1.kunlun-one.com
+  server: zfd-krv1.01zmdbq1pk.cn
   port: 16254
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -178,7 +188,7 @@ proxies:
   tls: false
 - name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国04解锁|倍率1"
   type: vmess
-  server: zfd-krv1.kunlun-one.com
+  server: zfd-krv1.01zmdbq1pk.cn
   port: 16255
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -188,7 +198,7 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾01原生|倍率1"
   type: vmess
-  server: zfd-twv1.kunlun-one.com
+  server: zfd-twv1.01zmdbq1pk.cn
   port: 16129
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -198,7 +208,7 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾02原生|倍率1"
   type: vmess
-  server: zfd-twv1.kunlun-one.com
+  server: zfd-twv1.01zmdbq1pk.cn
   port: 16130
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -208,7 +218,7 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾03原生|倍率1"
   type: vmess
-  server: zfd-twv1.kunlun-one.com
+  server: zfd-twv1.01zmdbq1pk.cn
   port: 16131
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -218,7 +228,7 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾04原生|倍率1"
   type: vmess
-  server: zfd-twv1.kunlun-one.com
+  server: zfd-twv1.01zmdbq1pk.cn
   port: 16132
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -228,7 +238,7 @@ proxies:
   tls: false
 - name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡01解锁|倍率1"
   type: vmess
-  server: zfd-sgv1.kunlun-one.com
+  server: zfd-sgv1.01zmdbq1pk.cn
   port: 16107
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -238,7 +248,7 @@ proxies:
   tls: false
 - name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡02解锁|倍率1"
   type: vmess
-  server: zfd-sgv1.kunlun-one.com
+  server: zfd-sgv1.01zmdbq1pk.cn
   port: 16108
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -248,7 +258,7 @@ proxies:
   tls: false
 - name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡03解锁|倍率1"
   type: vmess
-  server: zfd-sgv1.kunlun-one.com
+  server: zfd-sgv1.01zmdbq1pk.cn
   port: 16109
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -258,7 +268,7 @@ proxies:
   tls: false
 - name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡04解锁|倍率1"
   type: vmess
-  server: zfd-sgv1.kunlun-one.com
+  server: zfd-sgv1.01zmdbq1pk.cn
   port: 16110
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -268,7 +278,7 @@ proxies:
   tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港01解锁|倍率1"
   type: vmess
-  server: zfd-hkv2.kunlun-one.com
+  server: zfd-hkv2.01zmdbq1pk.cn
   port: 16111
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -278,7 +288,7 @@ proxies:
   tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港02解锁|倍率1"
   type: vmess
-  server: zfd-hkv2.kunlun-one.com
+  server: zfd-hkv2.01zmdbq1pk.cn
   port: 16112
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -288,7 +298,7 @@ proxies:
   tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港03解锁|倍率1"
   type: vmess
-  server: zfd-hkv2.kunlun-one.com
+  server: zfd-hkv2.01zmdbq1pk.cn
   port: 16113
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -298,7 +308,7 @@ proxies:
   tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港04解锁|倍率1"
   type: vmess
-  server: zfd-hkv2.kunlun-one.com
+  server: zfd-hkv2.01zmdbq1pk.cn
   port: 16114
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -308,7 +318,7 @@ proxies:
   tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港05解锁|倍率1"
   type: vmess
-  server: zfd-hkv2.kunlun-one.com
+  server: zfd-hkv2.01zmdbq1pk.cn
   port: 16115
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -318,7 +328,7 @@ proxies:
   tls: false
 - name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港06解锁|倍率1"
   type: vmess
-  server: zfd-hkv2.kunlun-one.com
+  server: zfd-hkv2.01zmdbq1pk.cn
   port: 16116
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -328,7 +338,7 @@ proxies:
   tls: false
 - name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本01解锁|倍率1"
   type: vmess
-  server: zfd-jpv2.kunlun-one.com
+  server: zfd-jpv2.01zmdbq1pk.cn
   port: 16119
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -338,7 +348,7 @@ proxies:
   tls: false
 - name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本02解锁|倍率1"
   type: vmess
-  server: zfd-jpv2.kunlun-one.com
+  server: zfd-jpv2.01zmdbq1pk.cn
   port: 16120
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -348,7 +358,7 @@ proxies:
   tls: false
 - name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本03解锁|倍率1"
   type: vmess
-  server: zfd-jpv2.kunlun-one.com
+  server: zfd-jpv2.01zmdbq1pk.cn
   port: 16121
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -358,7 +368,7 @@ proxies:
   tls: false
 - name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本04解锁|倍率1"
   type: vmess
-  server: zfd-jpv2.kunlun-one.com
+  server: zfd-jpv2.01zmdbq1pk.cn
   port: 16122
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -368,7 +378,7 @@ proxies:
   tls: false
 - name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国01解锁|倍率1"
   type: vmess
-  server: zfd-usv2.kunlun-one.com
+  server: zfd-usv2.01zmdbq1pk.cn
   port: 16103
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -378,7 +388,7 @@ proxies:
   tls: false
 - name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国02解锁|倍率1"
   type: vmess
-  server: zfd-usv2.kunlun-one.com
+  server: zfd-usv2.01zmdbq1pk.cn
   port: 16104
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -388,7 +398,7 @@ proxies:
   tls: false
 - name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国03解锁|倍率1"
   type: vmess
-  server: zfd-usv2.kunlun-one.com
+  server: zfd-usv2.01zmdbq1pk.cn
   port: 16105
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -398,7 +408,7 @@ proxies:
   tls: false
 - name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国04解锁|倍率1"
   type: vmess
-  server: zfd-usv2.kunlun-one.com
+  server: zfd-usv2.01zmdbq1pk.cn
   port: 16106
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -408,7 +418,7 @@ proxies:
   tls: false
 - name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国01解锁|倍率1"
   type: vmess
-  server: zfd-krv2.kunlun-one.com
+  server: zfd-krv2.01zmdbq1pk.cn
   port: 16252
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -418,7 +428,7 @@ proxies:
   tls: false
 - name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国02解锁|倍率1"
   type: vmess
-  server: zfd-krv2.kunlun-one.com
+  server: zfd-krv2.01zmdbq1pk.cn
   port: 16253
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -428,7 +438,7 @@ proxies:
   tls: false
 - name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国03解锁|倍率1"
   type: vmess
-  server: zfd-krv2.kunlun-one.com
+  server: zfd-krv2.01zmdbq1pk.cn
   port: 16254
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -438,7 +448,7 @@ proxies:
   tls: false
 - name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国04解锁|倍率1"
   type: vmess
-  server: zfd-krv2.kunlun-one.com
+  server: zfd-krv2.01zmdbq1pk.cn
   port: 16255
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -448,7 +458,7 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾01原生|倍率1"
   type: vmess
-  server: zfd-twv2.kunlun-one.com
+  server: zfd-twv2.01zmdbq1pk.cn
   port: 16129
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -458,7 +468,7 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾02原生|倍率1"
   type: vmess
-  server: zfd-twv2.kunlun-one.com
+  server: zfd-twv2.01zmdbq1pk.cn
   port: 16130
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -468,7 +478,7 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾03原生|倍率1"
   type: vmess
-  server: zfd-twv2.kunlun-one.com
+  server: zfd-twv2.01zmdbq1pk.cn
   port: 16131
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -478,7 +488,7 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾04原生|倍率1"
   type: vmess
-  server: zfd-twv2.kunlun-one.com
+  server: zfd-twv2.01zmdbq1pk.cn
   port: 16132
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -488,7 +498,7 @@ proxies:
   tls: false
 - name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡01解锁|倍率1"
   type: vmess
-  server: zfd-sgv2.kunlun-one.com
+  server: zfd-sgv2.01zmdbq1pk.cn
   port: 16107
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -498,7 +508,7 @@ proxies:
   tls: false
 - name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡02解锁|倍率1"
   type: vmess
-  server: zfd-sgv2.kunlun-one.com
+  server: zfd-sgv2.01zmdbq1pk.cn
   port: 16108
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -508,7 +518,7 @@ proxies:
   tls: false
 - name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡03解锁|倍率1"
   type: vmess
-  server: zfd-sgv2.kunlun-one.com
+  server: zfd-sgv2.01zmdbq1pk.cn
   port: 16109
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -518,7 +528,7 @@ proxies:
   tls: false
 - name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡04解锁|倍率1"
   type: vmess
-  server: zfd-sgv2.kunlun-one.com
+  server: zfd-sgv2.01zmdbq1pk.cn
   port: 16110
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -528,7 +538,7 @@ proxies:
   tls: false
 - name: "\U0001F1FF\U0001F1E6 ⚡️专线|南非01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16266
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -538,18 +548,8 @@ proxies:
   tls: false
 - name: "\U0001F1EE\U0001F1F3 ⚡️专线|印度01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16312
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EA\U0001F1EC ⚡️专线|埃及01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.kunlun-one.com
-  port: 16297
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
   cipher: auto
@@ -558,7 +558,7 @@ proxies:
   tls: false
 - name: "⚡️专线|巴林01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16290
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -568,7 +568,7 @@ proxies:
   tls: false
 - name: "\U0001F1E7\U0001F1F7 ⚡️专线|巴西01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16314
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -578,7 +578,7 @@ proxies:
   tls: false
 - name: "\U0001F1EC\U0001F1F7 ⚡️专线|希腊01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16310
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -588,7 +588,7 @@ proxies:
   tls: false
 - name: "\U0001F1E9\U0001F1EA ⚡️专线|德国01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16292
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -598,7 +598,7 @@ proxies:
   tls: false
 - name: "\U0001F1F3\U0001F1F4 ⚡️专线|挪威01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16291
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -608,8 +608,18 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1FF ⚡️专线|捷克01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16280
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+- name: "\U0001F1EB\U0001F1F7 ⚡️专线|法国01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16297
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
   cipher: auto
@@ -618,7 +628,7 @@ proxies:
   tls: false
 - name: "\U0001F1F5\U0001F1F1 ⚡️专线|波兰01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16276
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -628,7 +638,7 @@ proxies:
   tls: false
 - name: "\U0001F1F9\U0001F1ED ⚡️专线|泰国01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16288
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -638,7 +648,7 @@ proxies:
   tls: false
 - name: "\U0001F1F8\U0001F1EA ⚡️专线|瑞典01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16293
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -648,7 +658,7 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1ED ⚡️专线|瑞士01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16284
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -658,7 +668,7 @@ proxies:
   tls: false
 - name: "\U0001F1EB\U0001F1EE ⚡️专线|芬兰01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16316
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -668,7 +678,7 @@ proxies:
   tls: false
 - name: "\U0001F1EC\U0001F1E7 ⚡️专线|英国01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16296
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -678,7 +688,7 @@ proxies:
   tls: false
 - name: "\U0001F1F3\U0001F1F1 ⚡️专线|荷兰01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16278
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -688,7 +698,7 @@ proxies:
   tls: false
 - name: "\U0001F1FB\U0001F1F3 ⚡️专线|越南01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16256
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -698,7 +708,7 @@ proxies:
   tls: false
 - name: "\U0001F1E6\U0001F1EA ⚡️专线|迪拜01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16258
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -708,7 +718,7 @@ proxies:
   tls: false
 - name: "\U0001F1FA\U0001F1E6 ⚡️专线|乌克兰01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16286
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -718,7 +728,7 @@ proxies:
   tls: false
 - name: "\U0001F1F7\U0001F1FA ⚡️专线|俄罗斯01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16270
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -728,7 +738,7 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1E6 ⚡️专线|加拿大01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16294
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -738,7 +748,7 @@ proxies:
   tls: false
 - name: "\U0001F1F9\U0001F1F7 ⚡️专线|土耳其01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16272
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -748,7 +758,7 @@ proxies:
   tls: false
 - name: "\U0001F1E6\U0001F1F9 ⚡️专线|奥地利01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16308
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -758,7 +768,7 @@ proxies:
   tls: false
 - name: "\U0001F1EE\U0001F1F9 ⚡️专线|意大利01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16295
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -768,7 +778,7 @@ proxies:
   tls: false
 - name: "\U0001F1F0\U0001F1ED ⚡️专线|柬埔寨01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16262
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -778,7 +788,7 @@ proxies:
   tls: false
 - name: "\U0001F1EA\U0001F1F8 ⚡️专线|西班牙01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16306
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -788,7 +798,7 @@ proxies:
   tls: false
 - name: "\U0001F1E6\U0001F1F7 ⚡️专线|阿根廷01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16302
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -798,7 +808,7 @@ proxies:
   tls: false
 - name: "⚡️专线|马尼拉01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16260
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -808,7 +818,7 @@ proxies:
   tls: false
 - name: "\U0001F1E7\U0001F1EC ⚡️专线|保加利亚01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16274
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -818,7 +828,7 @@ proxies:
   tls: false
 - name: "\U0001F1E8\U0001F1F4 ⚡️专线|哥伦比亚01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16304
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -828,7 +838,7 @@ proxies:
   tls: false
 - name: "\U0001F1E7\U0001F1E9 ⚡️专线|孟加拉国01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16264
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -838,7 +848,7 @@ proxies:
   tls: false
 - name: "\U0001F1F5\U0001F1F0 ⚡️专线|巴基斯坦01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16315
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -848,7 +858,7 @@ proxies:
   tls: false
 - name: "\U0001F1F1\U0001F1FB ⚡️专线|拉脱维亚01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16282
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -858,7 +868,7 @@ proxies:
   tls: false
 - name: "\U0001F1E6\U0001F1FA ⚡️专线|澳大利亚01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16290
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -868,7 +878,7 @@ proxies:
   tls: false
 - name: "\U0001F1E6\U0001F1FF ⚡️专线|阿塞拜疆01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16319
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -878,7 +888,7 @@ proxies:
   tls: false
 - name: "⚡️专线|马斯喀特01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16313
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -888,7 +898,7 @@ proxies:
   tls: false
 - name: "\U0001F1F2\U0001F1FE ⚡️专线|马来西亚01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16317
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -898,7 +908,7 @@ proxies:
   tls: false
 - name: "\U0001F1EE\U0001F1E9 ⚡️专线|印度尼西亚01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16298
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -908,7 +918,7 @@ proxies:
   tls: false
 - name: "\U0001F1F8\U0001F1E6 ⚡️专线|沙特阿拉伯01标准|倍率5"
   type: vmess
-  server: zfd-boardv2.kunlun-one.com
+  server: zfd-boardv2.01zmdbq1pk.cn
   port: 16268
   uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
   alterId: 0
@@ -937,14 +947,14 @@ proxies:
       Host: hd.goldencorn.one
   ip-version: dual
   tfo: true
+  smux:
+    enabled: false
 proxy-groups:
 - name: "\U0001F680 节点选择"
   type: select
   disable-udp: false
   proxies:
   - "♻️ 自动选择"
-  - "\U0001F52F 故障转移"
-  - "\U0001F52E 负载均衡"
   - "\U0001F1ED\U0001F1F0 香港节点"
   - "\U0001F1E8\U0001F1F3 台湾节点"
   - "\U0001F1F8\U0001F1EC 狮城节点"
@@ -957,6 +967,7 @@ proxy-groups:
 - name: "\U0001F680 手动切换"
   type: select
   proxies:
+  - "\U0001F1F8\U0001F1EC 最新域名:58zfdao.com"
   - "\U0001F1ED\U0001F1F0 ⚡️标准|香港01解锁|倍率1"
   - "\U0001F1ED\U0001F1F0 ⚡️标准|香港02解锁|倍率1"
   - "\U0001F1ED\U0001F1F0 ⚡️标准|香港03解锁|倍率1"
@@ -1011,13 +1022,13 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC ⚡️专线|新加坡04解锁|倍率1"
   - "\U0001F1FF\U0001F1E6 ⚡️专线|南非01标准|倍率5"
   - "\U0001F1EE\U0001F1F3 ⚡️专线|印度01标准|倍率5"
-  - "\U0001F1EA\U0001F1EC ⚡️专线|埃及01标准|倍率5"
   - "⚡️专线|巴林01标准|倍率5"
   - "\U0001F1E7\U0001F1F7 ⚡️专线|巴西01标准|倍率5"
   - "\U0001F1EC\U0001F1F7 ⚡️专线|希腊01标准|倍率5"
   - "\U0001F1E9\U0001F1EA ⚡️专线|德国01标准|倍率5"
   - "\U0001F1F3\U0001F1F4 ⚡️专线|挪威01标准|倍率5"
   - "\U0001F1E8\U0001F1FF ⚡️专线|捷克01标准|倍率5"
+  - "\U0001F1EB\U0001F1F7 ⚡️专线|法国01标准|倍率5"
   - "\U0001F1F5\U0001F1F1 ⚡️专线|波兰01标准|倍率5"
   - "\U0001F1F9\U0001F1ED ⚡️专线|泰国01标准|倍率5"
   - "\U0001F1F8\U0001F1EA ⚡️专线|瑞典01标准|倍率5"
@@ -1051,6 +1062,7 @@ proxy-groups:
 - name: "♻️ 自动选择"
   type: url-test
   proxies:
+  - "\U0001F1F8\U0001F1EC 最新域名:58zfdao.com"
   - "\U0001F1ED\U0001F1F0 ⚡️标准|香港01解锁|倍率1"
   - "\U0001F1ED\U0001F1F0 ⚡️标准|香港02解锁|倍率1"
   - "\U0001F1ED\U0001F1F0 ⚡️标准|香港03解锁|倍率1"
@@ -1105,13 +1117,13 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC ⚡️专线|新加坡04解锁|倍率1"
   - "\U0001F1FF\U0001F1E6 ⚡️专线|南非01标准|倍率5"
   - "\U0001F1EE\U0001F1F3 ⚡️专线|印度01标准|倍率5"
-  - "\U0001F1EA\U0001F1EC ⚡️专线|埃及01标准|倍率5"
   - "⚡️专线|巴林01标准|倍率5"
   - "\U0001F1E7\U0001F1F7 ⚡️专线|巴西01标准|倍率5"
   - "\U0001F1EC\U0001F1F7 ⚡️专线|希腊01标准|倍率5"
   - "\U0001F1E9\U0001F1EA ⚡️专线|德国01标准|倍率5"
   - "\U0001F1F3\U0001F1F4 ⚡️专线|挪威01标准|倍率5"
   - "\U0001F1E8\U0001F1FF ⚡️专线|捷克01标准|倍率5"
+  - "\U0001F1EB\U0001F1F7 ⚡️专线|法国01标准|倍率5"
   - "\U0001F1F5\U0001F1F1 ⚡️专线|波兰01标准|倍率5"
   - "\U0001F1F9\U0001F1ED ⚡️专线|泰国01标准|倍率5"
   - "\U0001F1F8\U0001F1EA ⚡️专线|瑞典01标准|倍率5"
@@ -1145,199 +1157,6 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: '300'
   tolerance: '50'
-- name: "\U0001F52F 故障转移"
-  type: fallback
-  proxies:
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港01解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港02解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港03解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港04解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港05解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港06解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️标准|日本01解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️标准|日本02解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️标准|日本03解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️标准|日本04解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️标准|美国01解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️标准|美国02解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️标准|美国03解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️标准|美国04解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️标准|韩国01解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️标准|韩国02解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️标准|韩国03解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️标准|韩国04解锁|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️标准|台湾01原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️标准|台湾02原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️标准|台湾03原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️标准|台湾04原生|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️标准|新加坡01解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️标准|新加坡02解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️标准|新加坡03解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️标准|新加坡04解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港01解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港02解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港03解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港04解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港05解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港06解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️专线|日本01解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️专线|日本02解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️专线|日本03解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️专线|日本04解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️专线|美国01解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️专线|美国02解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️专线|美国03解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️专线|美国04解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️专线|韩国01解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️专线|韩国02解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️专线|韩国03解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️专线|韩国04解锁|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️专线|台湾01原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️专线|台湾02原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️专线|台湾03原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️专线|台湾04原生|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️专线|新加坡01解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️专线|新加坡02解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️专线|新加坡03解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️专线|新加坡04解锁|倍率1"
-  - "\U0001F1FF\U0001F1E6 ⚡️专线|南非01标准|倍率5"
-  - "\U0001F1EE\U0001F1F3 ⚡️专线|印度01标准|倍率5"
-  - "\U0001F1EA\U0001F1EC ⚡️专线|埃及01标准|倍率5"
-  - "⚡️专线|巴林01标准|倍率5"
-  - "\U0001F1E7\U0001F1F7 ⚡️专线|巴西01标准|倍率5"
-  - "\U0001F1EC\U0001F1F7 ⚡️专线|希腊01标准|倍率5"
-  - "\U0001F1E9\U0001F1EA ⚡️专线|德国01标准|倍率5"
-  - "\U0001F1F3\U0001F1F4 ⚡️专线|挪威01标准|倍率5"
-  - "\U0001F1E8\U0001F1FF ⚡️专线|捷克01标准|倍率5"
-  - "\U0001F1F5\U0001F1F1 ⚡️专线|波兰01标准|倍率5"
-  - "\U0001F1F9\U0001F1ED ⚡️专线|泰国01标准|倍率5"
-  - "\U0001F1F8\U0001F1EA ⚡️专线|瑞典01标准|倍率5"
-  - "\U0001F1E8\U0001F1ED ⚡️专线|瑞士01标准|倍率5"
-  - "\U0001F1EB\U0001F1EE ⚡️专线|芬兰01标准|倍率5"
-  - "\U0001F1EC\U0001F1E7 ⚡️专线|英国01标准|倍率5"
-  - "\U0001F1F3\U0001F1F1 ⚡️专线|荷兰01标准|倍率5"
-  - "\U0001F1FB\U0001F1F3 ⚡️专线|越南01标准|倍率5"
-  - "\U0001F1E6\U0001F1EA ⚡️专线|迪拜01标准|倍率5"
-  - "\U0001F1FA\U0001F1E6 ⚡️专线|乌克兰01标准|倍率5"
-  - "\U0001F1F7\U0001F1FA ⚡️专线|俄罗斯01标准|倍率5"
-  - "\U0001F1E8\U0001F1E6 ⚡️专线|加拿大01标准|倍率5"
-  - "\U0001F1F9\U0001F1F7 ⚡️专线|土耳其01标准|倍率5"
-  - "\U0001F1E6\U0001F1F9 ⚡️专线|奥地利01标准|倍率5"
-  - "\U0001F1EE\U0001F1F9 ⚡️专线|意大利01标准|倍率5"
-  - "\U0001F1F0\U0001F1ED ⚡️专线|柬埔寨01标准|倍率5"
-  - "\U0001F1EA\U0001F1F8 ⚡️专线|西班牙01标准|倍率5"
-  - "\U0001F1E6\U0001F1F7 ⚡️专线|阿根廷01标准|倍率5"
-  - "⚡️专线|马尼拉01标准|倍率5"
-  - "\U0001F1E7\U0001F1EC ⚡️专线|保加利亚01标准|倍率5"
-  - "\U0001F1E8\U0001F1F4 ⚡️专线|哥伦比亚01标准|倍率5"
-  - "\U0001F1E7\U0001F1E9 ⚡️专线|孟加拉国01标准|倍率5"
-  - "\U0001F1F5\U0001F1F0 ⚡️专线|巴基斯坦01标准|倍率5"
-  - "\U0001F1F1\U0001F1FB ⚡️专线|拉脱维亚01标准|倍率5"
-  - "\U0001F1E6\U0001F1FA ⚡️专线|澳大利亚01标准|倍率5"
-  - "\U0001F1E6\U0001F1FF ⚡️专线|阿塞拜疆01标准|倍率5"
-  - "⚡️专线|马斯喀特01标准|倍率5"
-  - "\U0001F1F2\U0001F1FE ⚡️专线|马来西亚01标准|倍率5"
-  - "\U0001F1EE\U0001F1E9 ⚡️专线|印度尼西亚01标准|倍率5"
-  - "\U0001F1F8\U0001F1E6 ⚡️专线|沙特阿拉伯01标准|倍率5"
-  url: http://www.gstatic.com/generate_204
-  interval: '300'
-- name: "\U0001F52E 负载均衡"
-  type: load-balance
-  strategy: consistent-hashing
-  proxies:
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港01解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港02解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港03解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港04解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港05解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️标准|香港06解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️标准|日本01解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️标准|日本02解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️标准|日本03解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️标准|日本04解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️标准|美国01解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️标准|美国02解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️标准|美国03解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️标准|美国04解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️标准|韩国01解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️标准|韩国02解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️标准|韩国03解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️标准|韩国04解锁|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️标准|台湾01原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️标准|台湾02原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️标准|台湾03原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️标准|台湾04原生|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️标准|新加坡01解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️标准|新加坡02解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️标准|新加坡03解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️标准|新加坡04解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港01解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港02解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港03解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港04解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港05解锁|倍率1"
-  - "\U0001F1ED\U0001F1F0 ⚡️专线|香港06解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️专线|日本01解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️专线|日本02解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️专线|日本03解锁|倍率1"
-  - "\U0001F1EF\U0001F1F5 ⚡️专线|日本04解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️专线|美国01解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️专线|美国02解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️专线|美国03解锁|倍率1"
-  - "\U0001F1FA\U0001F1F8 ⚡️专线|美国04解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️专线|韩国01解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️专线|韩国02解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️专线|韩国03解锁|倍率1"
-  - "\U0001F1F0\U0001F1F7 ⚡️专线|韩国04解锁|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️专线|台湾01原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️专线|台湾02原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️专线|台湾03原生|倍率1"
-  - "\U0001F1E8\U0001F1F3 ⚡️专线|台湾04原生|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️专线|新加坡01解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️专线|新加坡02解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️专线|新加坡03解锁|倍率1"
-  - "\U0001F1F8\U0001F1EC ⚡️专线|新加坡04解锁|倍率1"
-  - "\U0001F1FF\U0001F1E6 ⚡️专线|南非01标准|倍率5"
-  - "\U0001F1EE\U0001F1F3 ⚡️专线|印度01标准|倍率5"
-  - "\U0001F1EA\U0001F1EC ⚡️专线|埃及01标准|倍率5"
-  - "⚡️专线|巴林01标准|倍率5"
-  - "\U0001F1E7\U0001F1F7 ⚡️专线|巴西01标准|倍率5"
-  - "\U0001F1EC\U0001F1F7 ⚡️专线|希腊01标准|倍率5"
-  - "\U0001F1E9\U0001F1EA ⚡️专线|德国01标准|倍率5"
-  - "\U0001F1F3\U0001F1F4 ⚡️专线|挪威01标准|倍率5"
-  - "\U0001F1E8\U0001F1FF ⚡️专线|捷克01标准|倍率5"
-  - "\U0001F1F5\U0001F1F1 ⚡️专线|波兰01标准|倍率5"
-  - "\U0001F1F9\U0001F1ED ⚡️专线|泰国01标准|倍率5"
-  - "\U0001F1F8\U0001F1EA ⚡️专线|瑞典01标准|倍率5"
-  - "\U0001F1E8\U0001F1ED ⚡️专线|瑞士01标准|倍率5"
-  - "\U0001F1EB\U0001F1EE ⚡️专线|芬兰01标准|倍率5"
-  - "\U0001F1EC\U0001F1E7 ⚡️专线|英国01标准|倍率5"
-  - "\U0001F1F3\U0001F1F1 ⚡️专线|荷兰01标准|倍率5"
-  - "\U0001F1FB\U0001F1F3 ⚡️专线|越南01标准|倍率5"
-  - "\U0001F1E6\U0001F1EA ⚡️专线|迪拜01标准|倍率5"
-  - "\U0001F1FA\U0001F1E6 ⚡️专线|乌克兰01标准|倍率5"
-  - "\U0001F1F7\U0001F1FA ⚡️专线|俄罗斯01标准|倍率5"
-  - "\U0001F1E8\U0001F1E6 ⚡️专线|加拿大01标准|倍率5"
-  - "\U0001F1F9\U0001F1F7 ⚡️专线|土耳其01标准|倍率5"
-  - "\U0001F1E6\U0001F1F9 ⚡️专线|奥地利01标准|倍率5"
-  - "\U0001F1EE\U0001F1F9 ⚡️专线|意大利01标准|倍率5"
-  - "\U0001F1F0\U0001F1ED ⚡️专线|柬埔寨01标准|倍率5"
-  - "\U0001F1EA\U0001F1F8 ⚡️专线|西班牙01标准|倍率5"
-  - "\U0001F1E6\U0001F1F7 ⚡️专线|阿根廷01标准|倍率5"
-  - "⚡️专线|马尼拉01标准|倍率5"
-  - "\U0001F1E7\U0001F1EC ⚡️专线|保加利亚01标准|倍率5"
-  - "\U0001F1E8\U0001F1F4 ⚡️专线|哥伦比亚01标准|倍率5"
-  - "\U0001F1E7\U0001F1E9 ⚡️专线|孟加拉国01标准|倍率5"
-  - "\U0001F1F5\U0001F1F0 ⚡️专线|巴基斯坦01标准|倍率5"
-  - "\U0001F1F1\U0001F1FB ⚡️专线|拉脱维亚01标准|倍率5"
-  - "\U0001F1E6\U0001F1FA ⚡️专线|澳大利亚01标准|倍率5"
-  - "\U0001F1E6\U0001F1FF ⚡️专线|阿塞拜疆01标准|倍率5"
-  - "⚡️专线|马斯喀特01标准|倍率5"
-  - "\U0001F1F2\U0001F1FE ⚡️专线|马来西亚01标准|倍率5"
-  - "\U0001F1EE\U0001F1E9 ⚡️专线|印度尼西亚01标准|倍率5"
-  - "\U0001F1F8\U0001F1E6 ⚡️专线|沙特阿拉伯01标准|倍率5"
-  url: http://www.gstatic.com/generate_204
-  interval: '300'
 - name: "\U0001F4F2 电报消息"
   type: select
   proxies:
@@ -1353,7 +1172,6 @@ proxy-groups:
   - DIRECT
 - name: "\U0001F4AC OpenAi"
   type: select
-  disable-udp: false
   proxies:
   - "\U0001F680 节点选择"
   - "♻️ 自动选择"
@@ -1364,7 +1182,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F2 美国节点"
   - "\U0001F1F0\U0001F1F7 韩国节点"
   - "\U0001F680 手动切换"
-  - 自建节点
   - DIRECT
 - name: "\U0001F4F9 油管视频"
   type: select
@@ -1706,24 +1523,15 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
+  - DIRECT
   - us-hd-goldencorn
 rules:
 - DST-PORT,7895,REJECT
 - DST-PORT,7892,REJECT
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-- "RULE-SET,goldencorn,\U0001F3AF 全球直连"
-- "RULE-SET,directip,\U0001F3AF 全球直连"
-- "RULE-SET,openai,\U0001F4AC OpenAi"
-- DST-PORT,7895,REJECT
-- DST-PORT,7892,REJECT
-- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-- "RULE-SET,goldencorn,\U0001F3AF 全球直连"
-- "RULE-SET,directip,\U0001F3AF 全球直连"
-- DST-PORT,7895,REJECT
-- DST-PORT,7892,REJECT
-- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-- "RULE-SET,goldencorn,\U0001F3AF 全球直连"
-- "RULE-SET,directip,\U0001F3AF 全球直连"
+- "RULE-SET,mydomain,\U0001F680 节点选择"
+- "RULE-SET,directdomain,\U0001F3AF 全球直连"
+- RULE-SET,directip,DIRECT
 - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,ip6-localhost,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,ip6-loopback,\U0001F3AF 全球直连"
@@ -1775,11 +1583,12 @@ rules:
 - "DOMAIN,app.adjust.com,\U0001F3AF 全球直连"
 - "DOMAIN,bdtj.tagtic.cn,\U0001F3AF 全球直连"
 - "DOMAIN,rewards.hypixel.net,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,koodomobile.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,koodomobile.ca,\U0001F3AF 全球直连"
 - "DOMAIN-KEYWORD,admarvel,\U0001F6D1 广告拦截"
 - "DOMAIN-KEYWORD,admaster,\U0001F6D1 广告拦截"
 - "DOMAIN-KEYWORD,adsage,\U0001F6D1 广告拦截"
 - "DOMAIN-KEYWORD,adsensor,\U0001F6D1 广告拦截"
-- "DOMAIN-KEYWORD,adservice,\U0001F6D1 广告拦截"
 - "DOMAIN-KEYWORD,adsmogo,\U0001F6D1 广告拦截"
 - "DOMAIN-KEYWORD,adsrvmedia,\U0001F6D1 广告拦截"
 - "DOMAIN-KEYWORD,adsserving,\U0001F6D1 广告拦截"
@@ -3569,6 +3378,7 @@ rules:
 - "DOMAIN-SUFFIX,aaplimg.com,\U0001F34E 苹果服务"
 - "DOMAIN-SUFFIX,akadns.net,\U0001F34E 苹果服务"
 - "DOMAIN-SUFFIX,apple-cloudkit.com,\U0001F34E 苹果服务"
+- "DOMAIN-SUFFIX,apple-dns.net,\U0001F34E 苹果服务"
 - "DOMAIN-SUFFIX,apple-mapkit.com,\U0001F34E 苹果服务"
 - "DOMAIN-SUFFIX,apple.co,\U0001F34E 苹果服务"
 - "DOMAIN-SUFFIX,apple.com,\U0001F34E 苹果服务"
@@ -3606,7 +3416,6 @@ rules:
 - "IP-CIDR6,2001:b28:f23d::/48,\U0001F4F2 电报消息,no-resolve"
 - "IP-CIDR6,2001:b28:f23f::/48,\U0001F4F2 电报消息,no-resolve"
 - "DOMAIN-KEYWORD,openai,\U0001F4AC OpenAi"
-- "DOMAIN-SUFFIX,ai.com,\U0001F4AC OpenAi"
 - "DOMAIN-SUFFIX,auth0.com,\U0001F4AC OpenAi"
 - "DOMAIN-SUFFIX,challenges.cloudflare.com,\U0001F4AC OpenAi"
 - "DOMAIN-SUFFIX,client-api.arkoselabs.com,\U0001F4AC OpenAi"
@@ -3757,1369 +3566,9 @@ rules:
 - "IP-CIDR,192.173.64.0/18,\U0001F3A5 奈飞视频,no-resolve"
 - "IP-CIDR,198.38.96.0/19,\U0001F3A5 奈飞视频,no-resolve"
 - "IP-CIDR,198.45.48.0/20,\U0001F3A5 奈飞视频,no-resolve"
+- "IP-CIDR,203.75.84.0/24,\U0001F3A5 奈飞视频,no-resolve"
 - "IP-CIDR,207.45.72.0/22,\U0001F3A5 奈飞视频,no-resolve"
 - "IP-CIDR,208.75.76.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.0.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.0.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.2.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.8.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.32.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.33.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.33.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.34.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.34.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.35.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.36.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.37.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.37.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.38.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.38.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.39.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.39.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.40.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.41.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.42.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.42.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.43.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.47.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.47.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.2.48.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.3.0.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.3.2.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.3.5.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.3.6.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.3.8.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.3.16.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.4.0.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.4.4.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.4.6.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.4.8.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.4.10.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.4.16.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.0.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.32.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.48.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.56.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.64.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.72.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.76.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.80.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.128.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.160.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.168.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.172.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.208.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.212.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.216.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.5.224.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.6.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.8.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.16.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.32.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.33.34.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.33.40.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.33.44.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.33.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.34.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.36.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.64.0.0/11,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.96.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.101.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.104.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.112.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.120.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.128.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.144.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.160.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.208.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.224.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,3.248.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.32.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.0.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.1.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.2.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.2.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.3.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.4.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.4.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.5.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.6.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.6.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.7.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.7.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.8.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.9.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.9.76/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.10.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.11.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.11.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.12.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.12.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.13.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.13.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.14.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.15.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.15.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.16.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.16.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.17.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.18.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.19.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.19.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.20.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.20.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.21.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.21.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.21.192/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.22.88/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.22.96/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.22.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.23.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.24.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.24.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.24.192/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.25.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.25.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.25.192/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.25.248/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.26.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.26.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.26.192/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.27.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.27.128/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.28.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.32.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.32.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.33.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.34.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.36.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.38.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.38.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.39.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.40.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.48.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.64.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.68.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.68.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.69.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.70.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.72.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.80.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.96.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.34.97.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.35.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.36.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.40.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.48.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.56.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.112.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.124.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.184.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.192.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.208.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.224.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.244.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.248.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.248.64.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.248.72.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.248.96.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.248.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.249.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,13.250.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.152.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.156.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.158.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.160.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.164.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.168.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.177.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.177.64.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.177.80.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.177.88.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.177.92.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.177.94.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.177.96.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.177.100.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.181.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.181.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.181.192.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.181.224.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.181.240.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.181.248.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.181.252.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.181.254.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.184.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.188.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.190.0.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.190.8.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.190.16.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.190.48.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.193.0.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.197.0.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.197.32.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.197.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.200.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.205.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.206.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.220.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.220.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.220.192.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.220.208.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.220.216.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.220.224.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.221.0.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.221.32.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.221.48.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.221.52.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.221.128.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.221.144.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.221.152.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.222.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.228.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.0.4/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.0.8/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.0.12/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.0.14/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.4.19/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.4.152/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.4.160/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.4.176/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.5.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.6.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.9.10/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.9.12/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.9.44/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.9.248/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.9.252/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.14.12/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.14.17/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.14.18/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.14.20/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.14.248/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.14.252/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.16.0/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.16.12/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.16.17/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.16.18/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.16.20/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.16.196/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.16.252/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.18.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.19.12/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.19.18/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.19.248/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.19.252/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.21.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.22.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.24.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.32.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.35.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.36.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.40.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.49.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.50.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.52.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.56.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.60.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.62.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.63.0/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.63.4/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.63.6/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.63.8/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.64.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.72.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.76.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.78.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.79.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.79.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.80.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.96.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.101.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.102.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.104.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.129.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.130.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.132.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.133.0/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.133.16/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.133.24/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.133.26/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.133.28/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.134.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.136.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.138.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.140.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.144.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.148.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.149.0/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.149.4/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.149.8/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.150.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.152.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.160.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.168.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.169.0/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.170.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.173.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.174.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.176.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.177.0/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.177.4/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.178.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.179.0/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.179.16/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.180.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.184.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.188.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.190.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.192.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.196.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.198.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.199.0/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.200.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.202.0/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.203.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.204.0/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.205.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.206.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.208.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.210.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.212.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.216.0/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.216.8/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.217.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.218.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.220.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.222.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.223.0/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.223.4/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.240.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.248.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.250.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.251.0/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.251.4/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.251.6/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.252.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.254.0/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.254.4/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.230.255.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.236.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.248.8.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.248.16.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.248.32.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.248.40.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.248.48.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.248.64.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.248.80.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.251.0.0/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.251.0.20/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.251.0.24/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.251.0.28/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.253.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,15.254.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.12.0.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.12.2.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.12.4.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.12.8.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.12.16.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.12.20.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.12.24.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.12.32.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.12.40.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.12.48.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.16.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.24.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.50.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.52.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.62.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.78.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.154.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.156.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.162.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.168.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.176.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,16.182.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.34.0.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.34.48.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.34.72.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.34.232.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.34.244.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.34.252.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.60.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.64.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.68.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.88.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.88.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.89.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.89.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.100.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.102.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.116.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.130.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.132.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.136.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.138.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.140.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.144.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.153.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.154.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.156.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.160.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.168.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.172.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.175.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.176.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.184.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.188.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.192.0.0/11,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.224.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.244.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.246.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.252.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,18.254.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,23.20.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,27.0.0.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,34.192.0.0/10,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,35.71.64.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,35.71.72.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,35.71.96.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,35.71.112.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,35.71.120.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,35.71.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,35.72.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,35.80.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,35.152.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,35.160.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,35.176.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,36.103.232.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,36.103.232.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,40.172.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,40.176.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,40.180.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,43.192.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,43.193.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,43.194.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,43.196.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,43.198.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,43.200.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,43.208.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,43.218.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,43.249.44.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,43.250.192.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,44.192.0.0/10,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,46.51.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,46.51.192.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,46.51.208.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,46.51.216.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,46.51.224.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,46.137.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,47.128.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,50.16.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,50.112.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.0.80.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.0.96.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.0.112.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.16.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.20.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.24.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.44.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.84.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.92.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.96.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.100.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.112.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,51.118.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.0.0.0/11,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.32.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.40.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.44.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.128.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.164.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.168.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.176.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.184.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.192.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.224.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.240.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.249.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.250.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.46.252.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.47.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.48.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.64.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.80.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.82.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.82.128.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.82.160.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.82.168.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.82.169.0/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.82.170.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.82.176.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.82.184.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.82.187.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.82.188.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.82.192.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.83.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.84.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.88.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.92.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.0.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.4.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.8.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.12.12/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.14.18/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.16.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.18.178/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.19.236/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.20.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.21.14/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.32.176/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.32.179/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.32.180/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.32.183/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.32.184/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.33.224/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.34.40/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.34.42/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.34.56/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.34.120/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.35.212/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.37.222/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.37.241/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.37.242/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.38.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.43.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.48.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.49.146/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.50.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.50.192/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.51.28/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.51.116/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.55.144/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.55.148/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.55.152/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.55.160/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.56.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.58.32/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.59.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.60.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.61.198/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.62.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.64.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.66.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.68.212/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.69.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.71.37/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.71.38/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.71.40/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.73.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.74.238/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.75.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.76.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.78.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.79.20/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.80.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.87.96/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.91.96/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.91.112/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.92.64/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.92.72/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.92.136/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.93.240/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.94.186/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.96.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.112.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.113.164/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.115.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.116.148/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.116.250/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.120.176/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.121.187/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.121.188/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.121.190/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.121.195/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.121.196/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.121.198/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.122.131/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.122.202/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.122.218/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.122.255/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.123.6/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.123.11/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.123.98/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.123.136/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.123.255/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.124.14/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.124.96/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.124.210/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.124.212/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.125.42/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.76/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.122/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.130/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.132/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.136/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.144/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.198/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.204/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.212/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.234/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.244/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.126.250/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.17/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.18/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.24/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.68/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.92/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.96/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.128/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.132/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.138/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.146/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.148/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.152/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.160/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.168/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.172/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.176/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.184/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.194/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.196/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.200/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.216/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.220/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.232/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.237/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.238/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.244/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.127.248/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.129.95/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.131.217/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.133.127/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.133.129/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.133.131/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.133.133/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.133.153/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.133.155/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.133.175/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.133.177/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.133.179/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.133.181/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.134.181/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.135.195/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.137.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.138.12/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.138.252/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.139.240/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.139.248/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.139.250/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.139.252/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.141.212/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.141.216/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.141.224/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.141.240/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.141.244/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.146.5/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.149.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.150.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.153.80/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.153.148/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.153.168/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.153.176/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.156.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.178.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.178.192/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.178.224/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.178.232/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.182.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.193.192/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.193.200/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.198.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.229.148/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.236.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.240.146/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.240.148/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.240.152/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.240.160/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.240.192/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.240.200/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.240.204/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.242.70/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.243.88/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.245.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.247.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.248.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.254.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.255.35/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.93.255.36/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.0.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.16.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.20.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.22.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.24.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.28.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.30.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.32.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.64.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.68.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.72.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.80.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.96.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.128.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.144.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.146.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.148.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.152.3/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.152.9/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.152.11/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.152.12/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.152.44/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.152.60/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.152.64/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.152.68/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.152.176/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.160.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.192.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.196.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.198.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.198.128/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.199.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.200.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.201.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.204.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.208.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.224.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.240.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.248.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.248.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.248.192/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.248.224/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.249.32/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.249.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.249.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.250.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.94.252.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.0.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.16.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.24.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.28.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.29.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.30.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.34.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.36.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.40.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.42.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.48.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.64.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.192.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.208.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.216.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.224.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.228.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.230.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.235.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.239.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.240.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.248.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.252.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.254.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.255.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.95.255.128/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.119.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.119.192.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.119.205.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.119.206.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.119.208.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.119.224.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.119.240.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.119.248.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.119.252.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.124.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.133.32/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.192.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.193.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.193.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.194.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.195.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.196.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.197.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.199.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.200.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.200.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.201.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.201.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.205.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.208.0/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.208.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.208.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.209.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.210.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.211.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.211.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.211.192/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.211.200/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.212.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.212.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.213.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.214.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.215.0/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.215.192/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.215.200/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.216.0/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.216.8/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.218.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.223.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.223.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.224.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.224.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.225.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.225.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.227.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.227.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.228.0/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.228.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.228.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.229.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.230.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.230.204/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.230.208/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.231.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.233.64/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.233.128/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.144.233.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.192.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.208.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.216.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.218.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.0.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.16.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.24.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.32.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.56.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.64.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.72.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.80.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.96.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.192.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.208.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.216.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.220.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.224.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.232.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.253.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.219.254.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.220.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.222.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,52.223.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.20.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.46.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.64.0.0/11,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.116.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.144.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.160.0.0/11,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.192.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.208.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.216.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.220.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.0.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.32.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.48.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.57.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.58.0/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.58.32/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.59.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.64.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.76.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.80.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.96.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.112.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.222.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.223.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.224.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.232.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.236.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.238.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.0.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.32.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.40.152/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.48.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.64.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.96.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.98.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.100.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.102.162/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.102.232/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.102.236/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.103.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.104.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.112.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.115.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.116.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.120.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.239.192.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.192.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.200.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.202.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.204.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.208.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.225.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.226.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.228.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.232.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.1/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.2/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.5/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.6/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.9/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.10/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.13/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.14/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.17/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.18/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.21/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.22/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.25/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.26/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.29/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.30/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.33/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.34/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.37/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.38/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.41/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.42/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.45/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.46/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.49/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.50/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.53/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.54/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.57/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.58/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.61/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.62/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.65/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.66/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.69/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.70/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.73/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.74/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.77/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.78/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.81/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.82/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.85/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.86/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.89/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.90/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.93/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.236.94/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.241.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.244.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.240.248.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.241.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.242.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.244.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,54.248.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,56.156.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,57.180.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,58.254.138.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,58.254.138.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,63.32.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,63.176.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,63.246.112.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,63.246.119.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,63.246.120.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,64.187.128.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,64.252.64.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,64.252.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,65.0.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,65.8.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,65.9.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,65.9.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,67.202.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,67.220.224.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,68.66.112.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,68.79.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.107.3.176/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.107.6.112/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.107.6.160/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.107.6.200/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.107.6.208/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.107.6.224/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.107.7.0/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.107.7.16/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.107.7.32/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.107.7.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.107.7.128/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.230.192.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.231.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.234.192.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,69.235.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,70.132.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,70.224.192.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,70.232.64.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,71.131.192.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,71.132.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,71.136.64.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,71.137.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,71.141.0.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,71.152.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,72.21.192.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,72.41.0.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,72.44.32.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,75.2.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,75.79.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,75.101.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,76.223.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,76.223.168.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,76.223.170.0/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,76.223.172.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,79.125.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,87.238.80.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,96.0.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,96.0.64.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,96.0.96.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,96.0.104.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,96.0.108.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,96.0.112.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,96.0.128.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,96.0.144.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,96.127.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,98.80.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,98.130.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.77.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.77.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.77.232.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.77.240.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.77.248.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.77.252.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.77.254.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.78.128.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.78.160.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.78.168.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.78.172.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.78.176.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.78.192.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.78.208.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.78.228.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.78.232.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.78.240.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.79.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.80.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.82.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.83.64.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.83.96.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.83.100.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.83.102.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.83.112.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.83.120.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.83.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.84.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.86.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.87.0.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.87.32.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.150.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.151.64.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.151.128.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.151.168.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.151.184.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,99.151.188.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,100.20.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,100.24.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,103.4.8.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,103.8.172.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,103.246.148.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.153.112.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.153.114.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.56.11/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.56.12/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.81/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.82/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.85/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.86/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.88/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.91/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.101/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.102/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.104/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.106/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.114/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.118/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.122/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.124/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.130/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.132/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,104.255.59.136/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,107.20.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,107.176.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,108.128.0.0/13,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,108.136.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,108.156.0.0/14,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,108.166.224.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,108.175.48.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,111.13.171.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,111.13.185.32/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,111.13.185.64/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,116.129.226.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,116.129.226.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,118.193.97.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,118.193.97.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,119.147.182.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,119.147.182.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,120.52.12.64/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,120.52.22.96/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,120.52.39.128/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,120.52.153.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,120.232.236.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,120.232.236.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,120.253.240.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,120.253.241.160/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,120.253.245.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,120.253.245.192/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,122.248.192.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,130.176.0.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,130.176.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,130.176.192.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,130.176.224.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,130.176.254.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,136.8.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,136.18.18.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,136.18.20.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,136.18.50.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,140.179.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,142.4.160.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,142.4.161.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,142.4.161.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,142.4.161.192/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,142.4.177.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,142.4.178.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,142.4.180.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,143.204.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,144.220.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.0.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.2.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.3.116/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.3.176/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.3.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.5.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.6.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.8.240/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.10.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.11.0/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.11.74/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.11.76/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.11.80/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.11.84/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.11.88/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.11.96/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.12.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.14.10/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.14.72/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.15.124/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.15.128/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.15.132/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.27.12/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.27.18/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.27.234/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.28.17/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.28.18/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.28.20/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.28.100/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.28.104/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.28.112/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.28.128/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.51.160/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.51.192/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.52.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.52.64/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.66.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.69.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.70.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.72.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.80.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.84.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.87.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.88.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.96.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.100.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.102.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.104.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.106.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.108.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.110.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.112.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.120.20/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.120.62/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.120.224/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.120.232/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.120.240/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.120.248/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.120.252/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.120.255/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.121.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.122.92/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.122.96/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.122.112/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.122.116/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.19/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.20/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.62/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.64/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.69/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.110/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.112/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.128/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.224/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.228/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.240/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.248/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.252/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.129.255/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.133.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.134.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.136.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.138.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.139.116/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.139.120/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.140.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.164.208/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.164.212/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.164.220/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.164.222/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.176.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.180.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.196.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.199.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.200.60/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.202.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.204.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.208.64/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.208.96/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.210.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.212.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.213.0/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.213.40/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.214.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.217.12/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.217.17/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.217.226/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.217.228/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.217.232/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.217.248/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.218.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.220.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.224.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.226.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.228.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.230.51/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.230.88/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.230.92/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.230.96/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.230.128/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.230.132/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.231.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.51/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.88/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.90/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.93/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.94/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.96/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.112/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.120/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.124/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.126/32,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.192/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.232.224/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.233.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.234.0/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.234.64/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.234.80/29,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.234.96/27,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.234.128/28,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.235.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.236.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.238.36/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.239.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.242.84/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.242.214/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.245.122/31,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.252.244/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,150.222.252.248/30,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,151.148.8.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,151.148.32.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,151.148.40.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,157.152.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,157.175.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,157.241.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,159.248.200.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,159.248.216.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,159.248.224.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,159.248.240.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,160.1.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,161.178.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,161.178.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,161.189.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,161.193.0.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,161.193.128.0/18,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,162.213.232.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,162.222.148.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,162.250.236.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,172.96.97.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,172.96.98.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,172.96.110.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,174.129.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,175.41.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,176.32.64.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,176.32.96.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,176.32.112.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,176.32.120.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,176.32.124.128/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,176.32.125.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,176.34.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,177.71.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,177.72.240.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,178.236.0.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,180.163.57.0/25,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,180.163.57.128/26,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,184.32.0.0/12,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,184.72.0.0/15,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,184.169.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,185.48.120.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,185.143.16.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,192.26.25.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,192.43.175.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,195.17.0.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,198.99.2.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,199.127.232.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,203.83.220.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,204.45.0.0/16,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,204.236.128.0/17,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,204.246.160.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,205.251.192.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,205.251.225.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,205.251.226.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,205.251.228.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,205.251.232.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,205.251.240.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,205.251.248.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,205.251.252.0/23,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,205.251.254.0/24,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,207.171.160.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,208.86.88.0/22,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,208.110.48.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,209.54.176.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,216.39.136.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,216.39.152.0/21,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,216.39.160.0/20,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,216.137.32.0/19,\U0001F3A5 奈飞视频,no-resolve"
-- "IP-CIDR,216.182.224.0/20,\U0001F3A5 奈飞视频,no-resolve"
 - "DOMAIN,bahamut.akamaized.net,\U0001F4FA 巴哈姆特"
 - "DOMAIN,gamer-cds.cdn.hinet.net,\U0001F4FA 巴哈姆特"
 - "DOMAIN,gamer2-cds.cdn.hinet.net,\U0001F4FA 巴哈姆特"
@@ -5228,6 +3677,8 @@ rules:
 - "DOMAIN-SUFFIX,aiv-cdn.net,\U0001F30D 国外媒体"
 - "DOMAIN-SUFFIX,aiv-delivery.net,\U0001F30D 国外媒体"
 - "DOMAIN-SUFFIX,amazon.jobs,\U0001F30D 国外媒体"
+- "DOMAIN-SUFFIX,amazontools.com,\U0001F30D 国外媒体"
+- "DOMAIN-SUFFIX,amazontours.com,\U0001F30D 国外媒体"
 - "DOMAIN-SUFFIX,amazonuniversity.jobs,\U0001F30D 国外媒体"
 - "DOMAIN-SUFFIX,amazonvideo.com,\U0001F30D 国外媒体"
 - "DOMAIN-SUFFIX,media-amazon.com,\U0001F30D 国外媒体"
@@ -5414,6 +3865,7 @@ rules:
 - "IP-CIDR,192.173.64.0/18,\U0001F30D 国外媒体,no-resolve"
 - "IP-CIDR,198.38.96.0/19,\U0001F30D 国外媒体,no-resolve"
 - "IP-CIDR,198.45.48.0/20,\U0001F30D 国外媒体,no-resolve"
+- "IP-CIDR,203.75.84.0/24,\U0001F30D 国外媒体,no-resolve"
 - "IP-CIDR,207.45.72.0/22,\U0001F30D 国外媒体,no-resolve"
 - "IP-CIDR,208.75.76.0/22,\U0001F30D 国外媒体,no-resolve"
 - "DOMAIN-SUFFIX,dmc.nico,\U0001F30D 国外媒体"
@@ -5440,7 +3892,6 @@ rules:
 - "DOMAIN-SUFFIX,olevod.tv,\U0001F30D 国外媒体"
 - "DOMAIN-SUFFIX,olevodtv.com,\U0001F30D 国外媒体"
 - "DOMAIN-KEYWORD,openai,\U0001F30D 国外媒体"
-- "DOMAIN-SUFFIX,ai.com,\U0001F30D 国外媒体"
 - "DOMAIN-SUFFIX,auth0.com,\U0001F30D 国外媒体"
 - "DOMAIN-SUFFIX,challenges.cloudflare.com,\U0001F30D 国外媒体"
 - "DOMAIN-SUFFIX,client-api.arkoselabs.com,\U0001F30D 国外媒体"
@@ -5681,7 +4132,6 @@ rules:
 - "DOMAIN-SUFFIX,6parkbbs.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,6parker.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,6parknews.com,\U0001F680 节点选择"
-- "DOMAIN-SUFFIX,7-zip.org,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,7capture.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,7cow.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,8-d.com,\U0001F680 节点选择"
@@ -6508,7 +4958,7 @@ rules:
 - "DOMAIN-SUFFIX,civiliangunner.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,civilmedia.tw,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,civisec.org,\U0001F680 节点选择"
-- "DOMAIN-SUFFIX,cjb.net,\U0001F680 节点选择"
+- "DOMAIN-SUFFIX,civitai.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,ck101.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,clarionproject.org,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,classicalguitarblog.net,\U0001F680 节点选择"
@@ -7520,6 +5970,7 @@ rules:
 - "DOMAIN-SUFFIX,goagent.biz,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,goagentplus.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,gobet.cc,\U0001F680 节点选择"
+- "DOMAIN-SUFFIX,godaddy.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,godfootsteps.org,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,godns.work,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,godoc.org,\U0001F680 节点选择"
@@ -7826,6 +6277,7 @@ rules:
 - "DOMAIN-SUFFIX,greenreadings.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,greenvpn.net,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,greenvpn.org,\U0001F680 节点选择"
+- "DOMAIN-SUFFIX,grindr.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,grotty-monday.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,grow.google,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,gs-discuss.com,\U0001F680 节点选择"
@@ -8206,6 +6658,7 @@ rules:
 - "DOMAIN-SUFFIX,imb.org,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,imdb.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,img.ly,\U0001F680 节点选择"
+- "DOMAIN-SUFFIX,imgasd.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,imgchili.net,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,imgmega.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,imgur.com,\U0001F680 节点选择"
@@ -8586,6 +7039,7 @@ rules:
 - "DOMAIN-SUFFIX,lfpcontent.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,lhakar.org,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,lhasocialwork.org,\U0001F680 节点选择"
+- "DOMAIN-SUFFIX,li.taipei,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,liangyou.net,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,liangzhichuanmei.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,lianyue.net,\U0001F680 节点选择"
@@ -8691,6 +7145,7 @@ rules:
 - "DOMAIN-SUFFIX,lzjscript.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,lzmtnews.org,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,m-sport.co.uk,\U0001F680 节点选择"
+- "DOMAIN-SUFFIX,m-team.cc,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,m.me,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,macgamestore.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,macrovpn.com,\U0001F680 节点选择"
@@ -8896,6 +7351,7 @@ rules:
 - "DOMAIN-SUFFIX,mondex.org,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,money-link.com.tw,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,moneyhome.biz,\U0001F680 节点选择"
+- "DOMAIN-SUFFIX,monica.im,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,monitorchina.org,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,monitorware.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,monlamit.org,\U0001F680 节点选择"
@@ -9368,7 +7824,6 @@ rules:
 - "DOMAIN-SUFFIX,page.link,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,page.tl,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,page2rss.com,\U0001F680 节点选择"
-- "DOMAIN-SUFFIX,pages.dev,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,pagodabox.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,palacemoon.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,paldengyal.com,\U0001F680 节点选择"
@@ -10604,7 +9059,6 @@ rules:
 - "DOMAIN-SUFFIX,tracfone.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,tradingview.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,translate.goog,\U0001F680 节点选择"
-- "DOMAIN-SUFFIX,translate.google,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,transparency.org,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,treemall.com.tw,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,trendsmap.com,\U0001F680 节点选择"
@@ -11263,6 +9717,7 @@ rules:
 - "DOMAIN-SUFFIX,xiaohexie.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,xiaolan.me,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,xiaoma.org,\U0001F680 节点选择"
+- "DOMAIN-SUFFIX,xiaomi.eu,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,xiaxiaoqiang.net,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,xiezhua.com,\U0001F680 节点选择"
 - "DOMAIN-SUFFIX,xihua.es,\U0001F680 节点选择"
@@ -11775,6 +10230,7 @@ rules:
 - "DOMAIN-SUFFIX,pdfwifi.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,zhenguanyu.biz,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,zhenguanyu.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,snapdrop.net,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,cn,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,xn--fiqs8s,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,xn--55qx5d,\U0001F3AF 全球直连"
@@ -11871,9 +10327,6 @@ rules:
 - "DOMAIN-SUFFIX,hdslb.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,im9.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,smtcdns.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,battle.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,battlenet.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,blizzard.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,amemv.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,bdxiguaimg.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,bdxiguastatic.com,\U0001F3AF 全球直连"
@@ -11944,6 +10397,18 @@ rules:
 - "DOMAIN-SUFFIX,hwccpc.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,vmall.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,vmallres.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,allawnfs.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,allawno.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,allawntech.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,coloros.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,heytap.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,heytapcs.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,heytapdownload.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,heytapimage.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,heytapmobi.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,oppo.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,oppoer.me,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,oppomobile.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,iflyink.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,iflyrec.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,iflytek.com,\U0001F3AF 全球直连"
@@ -12095,130 +10560,6 @@ rules:
 - "DOMAIN-SUFFIX,zmzapi.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,zmzapi.net,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,zmzfile.com,\U0001F3AF 全球直连"
-- "DOMAIN-KEYWORD,announce,\U0001F3AF 全球直连"
-- "DOMAIN-KEYWORD,torrent,\U0001F3AF 全球直连"
-- "DOMAIN-KEYWORD,tracker,\U0001F3AF 全球直连"
-- "DOMAIN-KEYWORD,announce,\U0001F3AF 全球直连"
-- "DOMAIN-KEYWORD,torrent,\U0001F3AF 全球直连"
-- "DOMAIN-KEYWORD,tracker,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,52pt.site,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,aidoru-online.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,alpharatio.cc,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,animebytes.tv,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,animetorrents.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,anthelion.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,asiancinema.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,audiences.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,avgv.cc,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,avistaz.to,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,awesome-hd.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,beitai.pt,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,beyond-hd.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,bibliotik.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,bittorrent.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,blutopia.xyz,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,broadcasthe.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,bt.byr.cn,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,bt.neu6.edu.cn,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,btschool.club,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,bwtorrents.tv,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,byr.pt,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,ccfbits.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,cgpeers.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,chdbits.co,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,cinemageddon.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,cinematik.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,cinemaz.to,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,classix-unlimited.co.uk,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,concertos.live,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,dicmusic.club,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,discfan.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,dxdhd.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,eastgame.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,empornium.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,et8.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,exoticaz.to,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,extremlymtorrents.ws,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,filelist.io,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,gainbound.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,gazellegames.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,gfxpeers.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hd-space.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hd-torrents.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hd4.xyz,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hd4fans.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdarea.co,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdatmos.club,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdbd.us,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdbits.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdchina.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdcity.city,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hddolby.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdfans.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdhome.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdpost.top,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdroute.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdsky.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdstreet.club,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdtime.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdupt.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdzone.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hhanclub.top,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hitpt.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hitpt.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hudbt.hust.edu.cn,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,icetorrent.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,iptorrents.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,j99.info,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,joyhd.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,jpopsuki.eu,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,karagarga.in,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,keepfrds.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,landof.tv,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,leaguehd.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,lemonhd.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,lztr.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,m-team.cc,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,madsrevolution.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,moecat.best,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,morethan.tv,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,msg.vg,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,myanonamouse.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,nanyangpt.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,ncore.cc,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,nebulance.io,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,nicept.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,npupt.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,nwsuaf6.edu.cn,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,open.cd,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,oppaiti.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,orpheus.network,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,ourbits.club,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,passthepopcorn.me,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,pornbits.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,privatehd.to,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,pterclub.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,pthome.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,ptsbao.club,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,pttime.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,pussytorrents.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,redacted.ch,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,sdbits.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,sharkpt.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,sjtu.edu.cn,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,skyey2.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,soulvoice.club,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,springsunday.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,tju.pt,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,tjupt.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,torrentday.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,torrentleech.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,torrentseeds.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,totheglory.im,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,trontv.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,u2.dmhy.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,uhdbits.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,xauat6.edu.cn,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,teamviewer.com,\U0001F3AF 全球直连"
 - "IP-CIDR,139.220.243.27/32,\U0001F3AF 全球直连,no-resolve"
 - "IP-CIDR,172.16.102.56/32,\U0001F3AF 全球直连,no-resolve"
@@ -12233,6 +10574,10 @@ rules:
 - "DOMAIN-SUFFIX,jiasule.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,staticfile.org,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,upaiyun.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,doh.pub,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,dns.alidns.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,doh.360.cn,\U0001F3AF 全球直连"
+- "IP-CIDR,1.12.12.12/32,\U0001F3AF 全球直连,no-resolve"
 - "DOMAIN-SUFFIX,10010.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,115.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,12306.com,\U0001F3AF 全球直连"
@@ -12297,6 +10642,7 @@ rules:
 - "DOMAIN-SUFFIX,eastday.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,eastmoney.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,ecitic.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,element-plus.org,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,ewqcxz.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,fang.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,fantasy.tv,\U0001F3AF 全球直连"
@@ -12377,7 +10723,6 @@ rules:
 - "DOMAIN-SUFFIX,onedns.net,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,oneplus.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,onlinedown.net,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,oppo.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,oracle.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,oschina.net,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,ourdvs.com,\U0001F3AF 全球直连"
@@ -12720,6 +11065,7 @@ ipv6: false
 geodata-mode: true
 geodata-loader: standard
 tcp-concurrent: true
+unified-delay: true
 global-client-fingerprint: random
 dns:
   enable: true
@@ -12727,44 +11073,79 @@ dns:
   enhanced-mode: redir-host
   listen: 0.0.0.0:7874
   nameserver:
-  - 114.114.114.114
   - 119.29.29.29
+  - 119.28.28.28
   - 223.5.5.5
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
   fallback:
   - https://dns.cloudflare.com/dns-query
+  - tls://dns.google:853
+  - https://1.1.1.1/dns-query
+  - tls://1.1.1.1:853
+  - tls://8.8.8.8:853
   - https://public.dns.iij.jp/dns-query
   - https://jp.tiar.app/dns-query
   - https://jp.tiarap.org/dns-query
   - tls://dot.tiar.app
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.0.0.0/24
+    - 192.0.2.0/24
+    - 192.88.99.0/24
+    - 192.168.0.0/16
+    - 198.18.0.0/15
+    - 198.51.100.0/24
+    - 203.0.113.0/24
+    - 224.0.0.0/4
+    - 240.0.0.0/4
+    - 255.255.255.255/32
+    domain:
+    - "+.google.com"
+    - "+.facebook.com"
+    - "+.youtube.com"
+    - "+.githubusercontent.com"
+    - "+.googlevideo.com"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "+.tmdb.org"
+    - "+.themoviedb.org"
 sniffer:
   enable: true
   force-dns-mapping: true
   parse-pure-ip: true
 profile:
   store-selected: true
+  store-fake-ip: true
 authentication:
 - Clash:C4G3suLq
 rule-providers:
-  goldencorn:
+  mydomain:
     type: http
-    behavior: domain
-    path: "./rule_provider/goldencorn.yaml"
-    format: text
-    url: https://fastly.jsdelivr.net/gh/jeremy907/rules@main/goldencorn.txt
+    behavior: classical
+    path: "./rule_provider/mydomain.yaml"
+    format: yaml
+    url: https://raw.githubusercontent.com/jeremy907/rules/main/mydomain.yaml
+    interval: 86400
+  directdomain:
+    type: http
+    behavior: classical
+    path: "./rule_provider/directdomain.yaml"
+    format: yaml
+    url: https://raw.githubusercontent.com/jeremy907/rules/main/directdomain.yaml
     interval: 86400
   directip:
     type: http
-    behavior: ipcidr
+    behavior: classical
     path: "./rule_provider/directip.yaml"
-    format: text
-    url: https://fastly.jsdelivr.net/gh/jeremy907/rules@main/directip.txt
-    interval: 86400
-  openai:
-    type: http
-    behavior: domain
-    path: "./rule_provider/openai.yaml"
-    format: text
-    url: https://fastly.jsdelivr.net/gh/jeremy907/rules@main/openai.txt
+    format: yaml
+    url: https://raw.githubusercontent.com/jeremy907/rules/main/directip.yamp
     interval: 86400
