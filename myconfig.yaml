@@ -6,926 +6,6 @@ mode: rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: "\U0001F1F8\U0001F1EC 最新域名:58zfdao.com"
-  type: vmess
-  server: www.58zfdao.com
-  port: 10086
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港01解锁|倍率1"
-  type: vmess
-  server: zfd-hkv1.01zmdbq1pk.cn
-  port: 16111
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港02解锁|倍率1"
-  type: vmess
-  server: zfd-hkv1.01zmdbq1pk.cn
-  port: 16112
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港03解锁|倍率1"
-  type: vmess
-  server: zfd-hkv1.01zmdbq1pk.cn
-  port: 16113
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港04解锁|倍率1"
-  type: vmess
-  server: zfd-hkv1.01zmdbq1pk.cn
-  port: 16114
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港05解锁|倍率1"
-  type: vmess
-  server: zfd-hkv1.01zmdbq1pk.cn
-  port: 16115
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港06解锁|倍率1"
-  type: vmess
-  server: zfd-hkv1.01zmdbq1pk.cn
-  port: 16116
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本01解锁|倍率1"
-  type: vmess
-  server: zfd-jpv1.01zmdbq1pk.cn
-  port: 16119
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本02解锁|倍率1"
-  type: vmess
-  server: zfd-jpv1.01zmdbq1pk.cn
-  port: 16120
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本03解锁|倍率1"
-  type: vmess
-  server: zfd-jpv1.01zmdbq1pk.cn
-  port: 16121
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本04解锁|倍率1"
-  type: vmess
-  server: zfd-jpv1.01zmdbq1pk.cn
-  port: 16122
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国01解锁|倍率1"
-  type: vmess
-  server: zfd-usv1.01zmdbq1pk.cn
-  port: 16103
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国02解锁|倍率1"
-  type: vmess
-  server: zfd-usv1.01zmdbq1pk.cn
-  port: 16104
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国03解锁|倍率1"
-  type: vmess
-  server: zfd-usv1.01zmdbq1pk.cn
-  port: 16105
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国04解锁|倍率1"
-  type: vmess
-  server: zfd-usv1.01zmdbq1pk.cn
-  port: 16106
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国01解锁|倍率1"
-  type: vmess
-  server: zfd-krv1.01zmdbq1pk.cn
-  port: 16252
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国02解锁|倍率1"
-  type: vmess
-  server: zfd-krv1.01zmdbq1pk.cn
-  port: 16253
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国03解锁|倍率1"
-  type: vmess
-  server: zfd-krv1.01zmdbq1pk.cn
-  port: 16254
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国04解锁|倍率1"
-  type: vmess
-  server: zfd-krv1.01zmdbq1pk.cn
-  port: 16255
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾01原生|倍率1"
-  type: vmess
-  server: zfd-twv1.01zmdbq1pk.cn
-  port: 16129
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾02原生|倍率1"
-  type: vmess
-  server: zfd-twv1.01zmdbq1pk.cn
-  port: 16130
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾03原生|倍率1"
-  type: vmess
-  server: zfd-twv1.01zmdbq1pk.cn
-  port: 16131
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾04原生|倍率1"
-  type: vmess
-  server: zfd-twv1.01zmdbq1pk.cn
-  port: 16132
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡01解锁|倍率1"
-  type: vmess
-  server: zfd-sgv1.01zmdbq1pk.cn
-  port: 16107
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡02解锁|倍率1"
-  type: vmess
-  server: zfd-sgv1.01zmdbq1pk.cn
-  port: 16108
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡03解锁|倍率1"
-  type: vmess
-  server: zfd-sgv1.01zmdbq1pk.cn
-  port: 16109
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡04解锁|倍率1"
-  type: vmess
-  server: zfd-sgv1.01zmdbq1pk.cn
-  port: 16110
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港01解锁|倍率1"
-  type: vmess
-  server: zfd-hkv2.01zmdbq1pk.cn
-  port: 16111
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港02解锁|倍率1"
-  type: vmess
-  server: zfd-hkv2.01zmdbq1pk.cn
-  port: 16112
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港03解锁|倍率1"
-  type: vmess
-  server: zfd-hkv2.01zmdbq1pk.cn
-  port: 16113
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港04解锁|倍率1"
-  type: vmess
-  server: zfd-hkv2.01zmdbq1pk.cn
-  port: 16114
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港05解锁|倍率1"
-  type: vmess
-  server: zfd-hkv2.01zmdbq1pk.cn
-  port: 16115
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港06解锁|倍率1"
-  type: vmess
-  server: zfd-hkv2.01zmdbq1pk.cn
-  port: 16116
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本01解锁|倍率1"
-  type: vmess
-  server: zfd-jpv2.01zmdbq1pk.cn
-  port: 16119
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本02解锁|倍率1"
-  type: vmess
-  server: zfd-jpv2.01zmdbq1pk.cn
-  port: 16120
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本03解锁|倍率1"
-  type: vmess
-  server: zfd-jpv2.01zmdbq1pk.cn
-  port: 16121
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本04解锁|倍率1"
-  type: vmess
-  server: zfd-jpv2.01zmdbq1pk.cn
-  port: 16122
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国01解锁|倍率1"
-  type: vmess
-  server: zfd-usv2.01zmdbq1pk.cn
-  port: 16103
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国02解锁|倍率1"
-  type: vmess
-  server: zfd-usv2.01zmdbq1pk.cn
-  port: 16104
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国03解锁|倍率1"
-  type: vmess
-  server: zfd-usv2.01zmdbq1pk.cn
-  port: 16105
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国04解锁|倍率1"
-  type: vmess
-  server: zfd-usv2.01zmdbq1pk.cn
-  port: 16106
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国01解锁|倍率1"
-  type: vmess
-  server: zfd-krv2.01zmdbq1pk.cn
-  port: 16252
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国02解锁|倍率1"
-  type: vmess
-  server: zfd-krv2.01zmdbq1pk.cn
-  port: 16253
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国03解锁|倍率1"
-  type: vmess
-  server: zfd-krv2.01zmdbq1pk.cn
-  port: 16254
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国04解锁|倍率1"
-  type: vmess
-  server: zfd-krv2.01zmdbq1pk.cn
-  port: 16255
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾01原生|倍率1"
-  type: vmess
-  server: zfd-twv2.01zmdbq1pk.cn
-  port: 16129
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾02原生|倍率1"
-  type: vmess
-  server: zfd-twv2.01zmdbq1pk.cn
-  port: 16130
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾03原生|倍率1"
-  type: vmess
-  server: zfd-twv2.01zmdbq1pk.cn
-  port: 16131
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾04原生|倍率1"
-  type: vmess
-  server: zfd-twv2.01zmdbq1pk.cn
-  port: 16132
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡01解锁|倍率1"
-  type: vmess
-  server: zfd-sgv2.01zmdbq1pk.cn
-  port: 16107
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡02解锁|倍率1"
-  type: vmess
-  server: zfd-sgv2.01zmdbq1pk.cn
-  port: 16108
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡03解锁|倍率1"
-  type: vmess
-  server: zfd-sgv2.01zmdbq1pk.cn
-  port: 16109
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡04解锁|倍率1"
-  type: vmess
-  server: zfd-sgv2.01zmdbq1pk.cn
-  port: 16110
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1FF\U0001F1E6 ⚡️专线|南非01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16266
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EE\U0001F1F3 ⚡️专线|印度01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16312
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "⚡️专线|巴林01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16290
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E7\U0001F1F7 ⚡️专线|巴西01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16314
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EC\U0001F1F7 ⚡️专线|希腊01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16310
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E9\U0001F1EA ⚡️专线|德国01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16292
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F3\U0001F1F4 ⚡️专线|挪威01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16291
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1FF ⚡️专线|捷克01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16280
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EB\U0001F1F7 ⚡️专线|法国01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16297
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F5\U0001F1F1 ⚡️专线|波兰01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16276
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F9\U0001F1ED ⚡️专线|泰国01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16288
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F8\U0001F1EA ⚡️专线|瑞典01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16293
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1ED ⚡️专线|瑞士01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16284
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EB\U0001F1EE ⚡️专线|芬兰01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16316
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EC\U0001F1E7 ⚡️专线|英国01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16296
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F3\U0001F1F1 ⚡️专线|荷兰01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16278
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1FB\U0001F1F3 ⚡️专线|越南01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16256
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E6\U0001F1EA ⚡️专线|迪拜01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16258
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1FA\U0001F1E6 ⚡️专线|乌克兰01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16286
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F7\U0001F1FA ⚡️专线|俄罗斯01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16270
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1E6 ⚡️专线|加拿大01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16294
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F9\U0001F1F7 ⚡️专线|土耳其01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16272
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E6\U0001F1F9 ⚡️专线|奥地利01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16308
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EE\U0001F1F9 ⚡️专线|意大利01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16295
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F0\U0001F1ED ⚡️专线|柬埔寨01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16262
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EA\U0001F1F8 ⚡️专线|西班牙01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16306
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E6\U0001F1F7 ⚡️专线|阿根廷01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16302
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "⚡️专线|马尼拉01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16260
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E7\U0001F1EC ⚡️专线|保加利亚01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16274
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E8\U0001F1F4 ⚡️专线|哥伦比亚01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16304
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E7\U0001F1E9 ⚡️专线|孟加拉国01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16264
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F5\U0001F1F0 ⚡️专线|巴基斯坦01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16315
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F1\U0001F1FB ⚡️专线|拉脱维亚01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16282
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E6\U0001F1FA ⚡️专线|澳大利亚01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16290
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1E6\U0001F1FF ⚡️专线|阿塞拜疆01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16319
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "⚡️专线|马斯喀特01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16313
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F2\U0001F1FE ⚡️专线|马来西亚01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16317
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1EE\U0001F1E9 ⚡️专线|印度尼西亚01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16298
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
-- name: "\U0001F1F8\U0001F1E6 ⚡️专线|沙特阿拉伯01标准|倍率5"
-  type: vmess
-  server: zfd-boardv2.01zmdbq1pk.cn
-  port: 16268
-  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: false
-  tls: false
 - name: us-hd-goldencorn
   type: vmess
   server: hd.goldencorn.one
@@ -949,6 +29,1110 @@ proxies:
   tfo: true
   smux:
     enabled: false
+- name: "\U0001F1F8\U0001F1EC 最新域名:58zfdao.com"
+  type: vmess
+  server: www.58zfdao.com
+  port: 10086
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港01解锁|倍率1"
+  type: vmess
+  server: zfd-hkv1.01zmdbq1pk.cn
+  port: 16111
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港02解锁|倍率1"
+  type: vmess
+  server: zfd-hkv1.01zmdbq1pk.cn
+  port: 16112
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港03解锁|倍率1"
+  type: vmess
+  server: zfd-hkv1.01zmdbq1pk.cn
+  port: 16113
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港04解锁|倍率1"
+  type: vmess
+  server: zfd-hkv1.01zmdbq1pk.cn
+  port: 16114
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港05解锁|倍率1"
+  type: vmess
+  server: zfd-hkv1.01zmdbq1pk.cn
+  port: 16115
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️标准|香港06解锁|倍率1"
+  type: vmess
+  server: zfd-hkv1.01zmdbq1pk.cn
+  port: 16116
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本01解锁|倍率1"
+  type: vmess
+  server: zfd-jpv1.01zmdbq1pk.cn
+  port: 16119
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本02解锁|倍率1"
+  type: vmess
+  server: zfd-jpv1.01zmdbq1pk.cn
+  port: 16120
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本03解锁|倍率1"
+  type: vmess
+  server: zfd-jpv1.01zmdbq1pk.cn
+  port: 16121
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EF\U0001F1F5 ⚡️标准|日本04解锁|倍率1"
+  type: vmess
+  server: zfd-jpv1.01zmdbq1pk.cn
+  port: 16122
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国01解锁|倍率1"
+  type: vmess
+  server: zfd-usv1.01zmdbq1pk.cn
+  port: 16103
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国02解锁|倍率1"
+  type: vmess
+  server: zfd-usv1.01zmdbq1pk.cn
+  port: 16104
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国03解锁|倍率1"
+  type: vmess
+  server: zfd-usv1.01zmdbq1pk.cn
+  port: 16105
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1FA\U0001F1F8 ⚡️标准|美国04解锁|倍率1"
+  type: vmess
+  server: zfd-usv1.01zmdbq1pk.cn
+  port: 16106
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国01解锁|倍率1"
+  type: vmess
+  server: zfd-krv1.01zmdbq1pk.cn
+  port: 16252
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国02解锁|倍率1"
+  type: vmess
+  server: zfd-krv1.01zmdbq1pk.cn
+  port: 16253
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国03解锁|倍率1"
+  type: vmess
+  server: zfd-krv1.01zmdbq1pk.cn
+  port: 16254
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F0\U0001F1F7 ⚡️标准|韩国04解锁|倍率1"
+  type: vmess
+  server: zfd-krv1.01zmdbq1pk.cn
+  port: 16255
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾01原生|倍率1"
+  type: vmess
+  server: zfd-twv1.01zmdbq1pk.cn
+  port: 16129
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾02原生|倍率1"
+  type: vmess
+  server: zfd-twv1.01zmdbq1pk.cn
+  port: 16130
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾03原生|倍率1"
+  type: vmess
+  server: zfd-twv1.01zmdbq1pk.cn
+  port: 16131
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1F3 ⚡️标准|台湾04原生|倍率1"
+  type: vmess
+  server: zfd-twv1.01zmdbq1pk.cn
+  port: 16132
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡01解锁|倍率1"
+  type: vmess
+  server: zfd-sgv1.01zmdbq1pk.cn
+  port: 16107
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡02解锁|倍率1"
+  type: vmess
+  server: zfd-sgv1.01zmdbq1pk.cn
+  port: 16108
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡03解锁|倍率1"
+  type: vmess
+  server: zfd-sgv1.01zmdbq1pk.cn
+  port: 16109
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F8\U0001F1EC ⚡️标准|新加坡04解锁|倍率1"
+  type: vmess
+  server: zfd-sgv1.01zmdbq1pk.cn
+  port: 16110
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港01解锁|倍率1"
+  type: vmess
+  server: zfd-hkv2.01zmdbq1pk.cn
+  port: 16111
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港02解锁|倍率1"
+  type: vmess
+  server: zfd-hkv2.01zmdbq1pk.cn
+  port: 16112
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港03解锁|倍率1"
+  type: vmess
+  server: zfd-hkv2.01zmdbq1pk.cn
+  port: 16113
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港04解锁|倍率1"
+  type: vmess
+  server: zfd-hkv2.01zmdbq1pk.cn
+  port: 16114
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港05解锁|倍率1"
+  type: vmess
+  server: zfd-hkv2.01zmdbq1pk.cn
+  port: 16115
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1ED\U0001F1F0 ⚡️专线|香港06解锁|倍率1"
+  type: vmess
+  server: zfd-hkv2.01zmdbq1pk.cn
+  port: 16116
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本01解锁|倍率1"
+  type: vmess
+  server: zfd-jpv2.01zmdbq1pk.cn
+  port: 16119
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本02解锁|倍率1"
+  type: vmess
+  server: zfd-jpv2.01zmdbq1pk.cn
+  port: 16120
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本03解锁|倍率1"
+  type: vmess
+  server: zfd-jpv2.01zmdbq1pk.cn
+  port: 16121
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EF\U0001F1F5 ⚡️专线|日本04解锁|倍率1"
+  type: vmess
+  server: zfd-jpv2.01zmdbq1pk.cn
+  port: 16122
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国01解锁|倍率1"
+  type: vmess
+  server: zfd-usv2.01zmdbq1pk.cn
+  port: 16103
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国02解锁|倍率1"
+  type: vmess
+  server: zfd-usv2.01zmdbq1pk.cn
+  port: 16104
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国03解锁|倍率1"
+  type: vmess
+  server: zfd-usv2.01zmdbq1pk.cn
+  port: 16105
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1FA\U0001F1F8 ⚡️专线|美国04解锁|倍率1"
+  type: vmess
+  server: zfd-usv2.01zmdbq1pk.cn
+  port: 16106
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国01解锁|倍率1"
+  type: vmess
+  server: zfd-krv2.01zmdbq1pk.cn
+  port: 16252
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国02解锁|倍率1"
+  type: vmess
+  server: zfd-krv2.01zmdbq1pk.cn
+  port: 16253
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国03解锁|倍率1"
+  type: vmess
+  server: zfd-krv2.01zmdbq1pk.cn
+  port: 16254
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F0\U0001F1F7 ⚡️专线|韩国04解锁|倍率1"
+  type: vmess
+  server: zfd-krv2.01zmdbq1pk.cn
+  port: 16255
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾01原生|倍率1"
+  type: vmess
+  server: zfd-twv2.01zmdbq1pk.cn
+  port: 16129
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾02原生|倍率1"
+  type: vmess
+  server: zfd-twv2.01zmdbq1pk.cn
+  port: 16130
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾03原生|倍率1"
+  type: vmess
+  server: zfd-twv2.01zmdbq1pk.cn
+  port: 16131
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1F3 ⚡️专线|台湾04原生|倍率1"
+  type: vmess
+  server: zfd-twv2.01zmdbq1pk.cn
+  port: 16132
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡01解锁|倍率1"
+  type: vmess
+  server: zfd-sgv2.01zmdbq1pk.cn
+  port: 16107
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡02解锁|倍率1"
+  type: vmess
+  server: zfd-sgv2.01zmdbq1pk.cn
+  port: 16108
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡03解锁|倍率1"
+  type: vmess
+  server: zfd-sgv2.01zmdbq1pk.cn
+  port: 16109
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F8\U0001F1EC ⚡️专线|新加坡04解锁|倍率1"
+  type: vmess
+  server: zfd-sgv2.01zmdbq1pk.cn
+  port: 16110
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1FF\U0001F1E6 ⚡️专线|南非01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16266
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EE\U0001F1F3 ⚡️专线|印度01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16312
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "⚡️专线|巴林01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16290
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E7\U0001F1F7 ⚡️专线|巴西01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16314
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EC\U0001F1F7 ⚡️专线|希腊01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16310
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E9\U0001F1EA ⚡️专线|德国01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16292
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F3\U0001F1F4 ⚡️专线|挪威01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16291
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1FF ⚡️专线|捷克01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16280
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EB\U0001F1F7 ⚡️专线|法国01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16297
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F5\U0001F1F1 ⚡️专线|波兰01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16276
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F9\U0001F1ED ⚡️专线|泰国01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16288
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F8\U0001F1EA ⚡️专线|瑞典01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16293
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1ED ⚡️专线|瑞士01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16284
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EB\U0001F1EE ⚡️专线|芬兰01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16316
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EC\U0001F1E7 ⚡️专线|英国01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16296
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F3\U0001F1F1 ⚡️专线|荷兰01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16278
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1FB\U0001F1F3 ⚡️专线|越南01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16256
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E6\U0001F1EA ⚡️专线|迪拜01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16258
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1FA\U0001F1E6 ⚡️专线|乌克兰01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16286
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F7\U0001F1FA ⚡️专线|俄罗斯01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16270
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1E6 ⚡️专线|加拿大01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16294
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F9\U0001F1F7 ⚡️专线|土耳其01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16272
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E6\U0001F1F9 ⚡️专线|奥地利01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16308
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EE\U0001F1F9 ⚡️专线|意大利01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16295
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F0\U0001F1ED ⚡️专线|柬埔寨01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16262
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EA\U0001F1F8 ⚡️专线|西班牙01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16306
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E6\U0001F1F7 ⚡️专线|阿根廷01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16302
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "⚡️专线|马尼拉01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16260
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E7\U0001F1EC ⚡️专线|保加利亚01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16274
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E8\U0001F1F4 ⚡️专线|哥伦比亚01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16304
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E7\U0001F1E9 ⚡️专线|孟加拉国01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16264
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F5\U0001F1F0 ⚡️专线|巴基斯坦01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16315
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F1\U0001F1FB ⚡️专线|拉脱维亚01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16282
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E6\U0001F1FA ⚡️专线|澳大利亚01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16290
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1E6\U0001F1FF ⚡️专线|阿塞拜疆01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16319
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "⚡️专线|马斯喀特01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16313
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F2\U0001F1FE ⚡️专线|马来西亚01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16317
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1EE\U0001F1E9 ⚡️专线|印度尼西亚01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16298
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
+- name: "\U0001F1F8\U0001F1E6 ⚡️专线|沙特阿拉伯01标准|倍率5"
+  type: vmess
+  server: zfd-boardv2.01zmdbq1pk.cn
+  port: 16268
+  uuid: 23628511-f555-3692-81e2-b60e1fdbeb0f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  tfo: false
 proxy-groups:
 - name: "\U0001F680 节点选择"
   type: select
@@ -1172,6 +1356,7 @@ proxy-groups:
   - DIRECT
 - name: "\U0001F4AC OpenAi"
   type: select
+  disable-udp: false
   proxies:
   - "\U0001F680 节点选择"
   - "♻️ 自动选择"
@@ -1182,6 +1367,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F2 美国节点"
   - "\U0001F1F0\U0001F1F7 韩国节点"
   - "\U0001F680 手动切换"
+  - 自建节点
   - DIRECT
 - name: "\U0001F4F9 油管视频"
   type: select
@@ -1373,6 +1559,7 @@ proxy-groups:
   - DIRECT
 - name: "\U0001F41F 漏网之鱼"
   type: select
+  disable-udp: false
   proxies:
   - "\U0001F680 节点选择"
   - "♻️ 自动选择"
@@ -1383,6 +1570,7 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 日本节点"
   - "\U0001F1FA\U0001F1F2 美国节点"
   - "\U0001F1F0\U0001F1F7 韩国节点"
+  - 自建节点
   - "\U0001F680 手动切换"
 - name: "\U0001F1ED\U0001F1F0 香港节点"
   type: url-test
@@ -1523,13 +1711,12 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - DIRECT
   - us-hd-goldencorn
 rules:
 - DST-PORT,7895,REJECT
 - DST-PORT,7892,REJECT
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-- "RULE-SET,mydomain,\U0001F680 节点选择"
+- RULE-SET,mydomain,自建节点
 - "RULE-SET,directdomain,\U0001F3AF 全球直连"
 - RULE-SET,directip,DIRECT
 - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF 全球直连"
