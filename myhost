@@ -1,0 +1,90 @@
+52.113.194.1 titlestorage.xboxlive.com #UHE_
+47.113.75.149 steamcloud-hkg.oss-accelerate.aliyuncs.com #UHE_
+47.113.75.149 steamcloud-sgp.oss-accelerate.aliyuncs.com #UHE_
+120.198.188.166 assets1.xboxlive.cn #UHE_
+120.198.188.166 assets2.xboxlive.cn #UHE_
+120.198.188.166 dl.delivery.mp.microsoft.com #UHE_
+120.198.188.166 tlu.dl.delivery.mp.microsoft.com #UHE_
+203.80.97.40 catalog.gamepass.com #UHE_
+13.107.213.74 beige.xboxservices.com #UHE_
+20.43.150.84 displaycatalog.mp.microsoft.com #UHE_
+103.151.179.4 packagespc.xboxlive.com #UHE_
+23.77.215.115 store-images.s-microsoft.com #UHE_
+27.148.138.181 storeedgefd.dsx.mp.microsoft.com #UHE_
+103.151.179.4 fe3cr.delivery.mp.microsoft.com #UHE_
+124.108.22.138 profile.gamepass.com #UHE_
+40.81.185.240 teredo.remlab.net #uu_acc
+40.81.185.240 teredo.trex.fi #uu_acc
+40.81.185.240 win10.ipv6.microsoft.com #uu_acc
+40.81.185.240 win1910.ipv6.microsoft.com #uu_acc
+40.81.185.240 win1901.ipv6.microsoft.com #uu_acc
+104.18.33.131 egs-platform-service.store.epicgames.com #uu_acc
+113.96.142.1 dlassets.xboxlive.cn #uu_acc
+14.17.66.172 dlgame.uu.netease.com #uu_acc
+45.195.21.118 shared-static-prod.epicgames.com #uu_acc
+20.47.95.129 pfmsqssi.uaenorth.cloudapp.azure.com #uu_acc
+183.62.112.58 d1.xboxlive.cn #uu_acc
+34.206.44.2 api.epicgames.dev #uu_acc
+44.218.16.179 epicgames.com #uu_acc
+103.28.54.131 cache3-hkg1.steamcontent.com #uu_acc
+20.197.103.14 licensing.mp.microsoft.com #uu_acc
+18.213.79.25 www.epicgames.com #uu_acc
+52.2.34.186 connect.epicgames.dev #uu_acc
+172.64.154.125 launcher.store.epicgames.com #uu_acc
+52.84.251.32 tmdb.org #UHE_
+52.84.251.32 image.tmdb.org #UHE_
+52.84.251.32 images.tmdb.org #UHE_
+52.84.251.32 api.tmdb.org #UHE_
+52.84.251.32 files.tmdb.org #UHE_
+52.84.251.32 themoviedb.org #UHE_
+52.84.251.32 api.themoviedb.org #UHE_
+52.84.251.32 www.themoviedb.org #UHE_
+52.84.251.32 auth.themoviedb.org #UHE_
+203.107.6.88 time.android.com
+
+# GitHub520 Host Start
+140.82.113.26                 alive.github.com
+140.82.112.6                  api.github.com
+185.199.108.153               assets-cdn.github.com
+185.199.108.133               avatars.githubusercontent.com
+185.199.108.133               avatars0.githubusercontent.com
+185.199.108.133               avatars1.githubusercontent.com
+185.199.108.133               avatars2.githubusercontent.com
+185.199.108.133               avatars3.githubusercontent.com
+185.199.108.133               avatars4.githubusercontent.com
+185.199.108.133               avatars5.githubusercontent.com
+185.199.108.133               camo.githubusercontent.com
+140.82.114.22                 central.github.com
+185.199.108.133               cloud.githubusercontent.com
+140.82.113.10                 codeload.github.com
+140.82.112.21                 collector.github.com
+185.199.108.133               desktop.githubusercontent.com
+185.199.108.133               favicons.githubusercontent.com
+140.82.112.3                  gist.github.com
+54.231.132.145                github-cloud.s3.amazonaws.com
+52.217.141.177                github-com.s3.amazonaws.com
+52.217.224.97                 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.135.249                github-production-repository-file-5c1aeb.s3.amazonaws.com
+54.231.160.49                 github-production-user-asset-6210df.s3.amazonaws.com
+192.0.66.2                    github.blog
+140.82.112.3                  github.com
+140.82.114.17                 github.community
+185.199.110.154               github.githubassets.com
+151.101.1.194                 github.global.ssl.fastly.net
+185.199.111.153               github.io
+185.199.108.133               github.map.fastly.net
+185.199.108.153               githubstatus.com
+140.82.114.25                 live.github.com
+185.199.108.133               media.githubusercontent.com
+185.199.108.133               objects.githubusercontent.com
+13.107.42.16                  pipelines.actions.githubusercontent.com
+185.199.108.133               raw.githubusercontent.com
+185.199.108.133               user-images.githubusercontent.com
+13.107.253.40                 vscode.dev
+140.82.114.21                 education.github.com
+
+
+# Update time: 2023-10-29T00:05:11+08:00
+# Update url: https://raw.hellogithub.com/hosts
+# Star me: https://github.com/521xueweihan/GitHub520
+# GitHub520 Host End
