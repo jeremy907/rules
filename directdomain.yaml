@@ -3,3 +3,18 @@ payload:
   - DOMAIN-KEYWORD,speedtest
   - DOMAIN-SUFFIX,goldencorn.one
   - DOMAIN-KEYWORD,goldencorn
+  - DOMAIN-SUFFIX,ssl-lvlt.cdn.ea.com
+  - DOMAIN-SUFFIX,origin-a.akamaihd.net
+  - DOMAIN-SUFFIX,tlu.dl.delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,d1.xboxlive.cn
+  - DOMAIN-SUFFIX,assets1.xboxlive.cn
+  - DOMAIN-SUFFIX,assets2.xboxlive.cn
+  - DOMAIN-SUFFIX,dlassets.xboxlive.com
+  - DOMAIN-SUFFIX,dlassets2.xboxlive.com
+  - DOMAIN-SUFFIX,xvcf1.xboxlive.com
+  - DOMAIN-SUFFIX,xvcf2.xboxlive.com
+  - DOMAIN-SUFFIX,assets1.xboxlive.com
+  - DOMAIN-SUFFIX,assets2.xboxlive.com
+  - DOMAIN-SUFFIX,d1.xboxlive.com
+  - DOMAIN-SUFFIX,d2.xboxlive.com
