@@ -5,13 +5,6 @@ payload:
   - # Add ai.com
   - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,auth0.openai.com
-  - DOMAIN-SUFFIX,platform.openai.com
-  - DOMAIN-SUFFIX,api.revenuecat.com
-   - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,pay.openai.com
-  - DOMAIN-SUFFIX,chat.openai.com
-  - DOMAIN-SUFFIX,ai.com
 
   - # Add stripe.com
   - DOMAIN-SUFFIX,invoice.stripe.com
