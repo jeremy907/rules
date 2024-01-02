@@ -1,12 +1,2 @@
 payload:
-  - DOMAIN-KEYWORD,zfd
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  
-  - # Add ai.com
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-
-  - # Add stripe.com
-  - DOMAIN-SUFFIX,invoice.stripe.com
-  - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,gamer.com.tw
