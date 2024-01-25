@@ -1,4 +1,5 @@
 payload:
+  - DOMAIN-KEYWORD,zfd
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-KEYWORD,speedtest
   - DOMAIN-SUFFIX,goldencorn.one
