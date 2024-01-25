@@ -1,7 +1,5 @@
 payload:
   - DOMAIN-KEYWORD,zfd
-  - DOMAIN-SUFFIX,speedtest.net
-  - DOMAIN-KEYWORD,speedtest
   - DOMAIN-SUFFIX,goldencorn.one
   - DOMAIN-KEYWORD,goldencorn
   - DOMAIN-SUFFIX,ssl-lvlt.cdn.ea.com
