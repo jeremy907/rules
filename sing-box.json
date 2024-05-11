@@ -1,0 +1,34 @@
+{
+    "inbounds": [
+           {
+            "type": "mixed",
+            "listen": "::",
+            "listen_port": 10000
+        }
+    ],
+    "outbounds": [
+        {
+            "type": "vmess",
+            "server": "magic.goldencorn.one",
+            "server_port": 443,
+            "uuid": "605a7dfd-6fc1-4352-b4c3-a9918639a3cb",
+            "security": "aes-128-gcm",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "packet_encoding": "packetaddr",
+            "transport": {
+                "type": "ws",
+                "path": "lovelive",
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        }
+    ]
+}
