@@ -9,23 +9,15 @@
     "outbounds": [
         {
             "type": "vmess",
-            "server": "magic.goldencorn.one",
-            "server_port": 443,
-            "uuid": "605a7dfd-6fc1-4352-b4c3-a9918639a3cb",
-            "security": "aes-128-gcm",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
+            "server": "vultr.goldencorn.one",
+            "server_port": 80,
+            "uuid": "fb0f1ae4-54b2-48ca-86ea-dd453b4a979e",
+            "security": "auto",
+            "alter_id": 0,           
             "packet_encoding": "packetaddr",
             "transport": {
                 "type": "ws",
-                "path": "lovelive",
+                "path": "/fb0f1ae4",
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
