@@ -1,10 +1,17 @@
 {
     "inbounds": [
-        {
+     {
+      "tag": "tun-in",
       "type": "tun",
       "inet4_address": "172.19.0.1/30",
       "auto_route": true,
-      "sniff": true
+      "strict_route": true,
+      "stack": "gvisor",
+      "mtu": 9000,
+      "sniff": true,
+      "sniff_timeout": "300ms",
+      "domain_strategy": "",
+      "udp_timeout": 300
     }
            
     ],
