@@ -1,10 +1,12 @@
 {
     "inbounds": [
-           {
-            "type": "mixed",
-            "listen": "::",
-            "listen_port": 10000
-        }
+        {
+      "type": "tun",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "sniff": true
+    }
+           
     ],
     "outbounds": [
         {
