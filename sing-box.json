@@ -19,15 +19,15 @@
     "outbounds": [
         {
             "type": "vmess",
-            "server": "vultr.goldencorn.one",
-            "server_port": 80,
-            "uuid": "fb0f1ae4-54b2-48ca-86ea-dd453b4a979e",
+            "server": "2.56.255.10",
+            "server_port": 49315,
+            "uuid": "c1f5c978-5c80-40c9-bb0e-2db9e0a05968",
             "security": "auto",
             "alter_id": 0,           
             "packet_encoding": "packetaddr",
             "transport": {
                 "type": "ws",
-                "path": "/fb0f1ae4",
+                "path": "/c1f5c978",
                 "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
