@@ -1,2 +1,3 @@
 payload:
   - DOMAIN-SUFFIX,www.oldmantvg.net
+  - DOMAIN-SUFFIX,api.igdb.com
