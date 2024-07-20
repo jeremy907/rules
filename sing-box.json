@@ -66,32 +66,16 @@
           "listen_port": 5333
         },
         {
-          "type": "mixed",
-          "tag": "mixed-in",
-          "listen": "::",
-          "listen_port": 5330,
-          "sniff": true,
-          "sniff_override_destination": false,
-          "set_system_proxy": false
-        },
-        {
-          "type": "redirect",
-          "tag": "redirect-in",
-          "listen": "::",
-          "listen_port": 5331,
+          "type": "tun",
+          "tag": "tun-in",
+          "inet4_address": "172.77.0.1/30",
+          "mtu": 9000,
+          "gso": true,
+          "auto_route": true,
+          "stack": "system",
           "sniff": true,
           "sniff_override_destination": false
-        },
-        {
-          "type": "tproxy",
-          "tag": "tproxy-in",
-          "listen": "::",
-          "listen_port": 5332,
-          "network": "udp",
-          "sniff": true,
-          "sniff_override_destination": false
-        }
-   
+       }
     ],
     "outbounds": [
         {
@@ -226,14 +210,14 @@
           "tag": "cnip",
           "format": "binary",
           "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cn.srs",
-          "download_detour": "自动选择"
+          "download_detour": "direct-out"
         },
         {
           "type": "remote",
           "tag": "cnsite",
           "format": "binary",
           "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cn.srs",
-          "download_detour": "自动选择"
+          "download_detour": "direct-out"
         }
       ],
       "auto_detect_interface": true,
@@ -244,7 +228,8 @@
         "enabled": true
       },
       "clash_api": {
-        "external_controller": "127.0.0.1:9090",
+        "external_controller": "192.168.78.2:9090",
+        "external_ui": "/yacd/",
         "external_ui_download_detour": "自动选择",
         "default_mode": "rule"
       }
