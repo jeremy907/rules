@@ -60,12 +60,6 @@
     },
     "inbounds": [
         {
-          "type": "direct",
-          "tag": "dns-in",
-          "listen": "::",
-          "listen_port": 5333
-        },
-        {
           "type": "tun",
           "tag": "tun-in",
           "inet4_address": "172.77.0.1/30",
@@ -234,3 +228,4 @@
       }
     }
   }
+  
