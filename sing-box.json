@@ -93,7 +93,8 @@
                 "⚡️标准|香港03解锁|倍率1",
                 "⚡️标准|香港04解锁|倍率1",
                 "⚡️标准|香港05解锁|倍率1",
-                "⚡️标准|香港06解锁|倍率1"
+                "⚡️标准|香港06解锁|倍率1",
+                "singlebox"
             ]
         },
         {
@@ -108,7 +109,8 @@
                 "⚡️标准|香港03解锁|倍率1",
                 "⚡️标准|香港04解锁|倍率1",
                 "⚡️标准|香港05解锁|倍率1",
-                "⚡️标准|香港06解锁|倍率1"
+                "⚡️标准|香港06解锁|倍率1",
+                "singlebox"
             ],
             "default": "自动选择"
         },
@@ -121,7 +123,7 @@
                 "自动选择"
             ],
             "default":  "手动选择"
-        },
+        },        
         {
             "server": "zfd-hkv1.01byx31qzn.download",
             "server_port": 16111,
@@ -169,6 +171,29 @@
             "type": "vmess",
             "security": "auto",
             "uuid": "23628511-f555-3692-81e2-b60e1fdbeb0f"
+        },
+        {
+          "type":"vmess",
+          "tag":"singlebox",
+          "server":"magic.goldencorn.one",
+          "server_port":443,
+          "uuid":"605a7dfd-6fc1-4352-b4c3-a9918639a3cb",
+          "alter_id":0,
+          "security":"auto",
+          "transport":
+            {"type":"ws",
+            "path":"/lovelive",
+            "headers":
+              {
+                "Host":"magic.goldencorn.one"
+              }
+            },
+            "tls":
+            {
+              "enabled":true,
+              "insecure":false
+            },
+            "tcp_fast_open":false
         }
     ],
     "route": {
