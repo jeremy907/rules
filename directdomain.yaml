@@ -19,3 +19,5 @@ payload:
   - DOMAIN-SUFFIX,d2.xboxlive.com
   - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,ipv6-test.com
+  - DOMAIN-SUFFIX,ipv6-tracker.m-team.cc
+  - DOMAIN-SUFFIX,tracker.m-team.cc
